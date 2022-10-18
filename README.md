@@ -11,8 +11,8 @@ EU: https://tenpages.github.io/us-level/eu.html
 Tap and mark countries, states or terretories you've been to. Tap "Save Image" to save and share your progress.
 
 ## References
-This toy app is created following these previous projects:
+These toy apps are created following these previous projects:
 
-https://lab.magiconch.com/china-ex/
+https://lab.magiconch.com/china-ex/ - the project forked this code
 
 https://zhung.com.tw/japanex/
