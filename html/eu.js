@@ -35,9 +35,21 @@ const 设置等级样式 = 设置等级.style;
 const 最小间距 = 6;
 添加事件监控(图形,'click', e=>{
     e.stopPropagation();
-    
-    const { target: 省元素 } = e;
+
+    // const { path } = current_path;
+    // if ( current_path[1][0] == 'g' && current_path[2][0] == 'g' ) {
+    //     const { target: }
+    // }
+    let { target: 省元素 } = e;
+    console.log(e)
+    console.log(省元素)
+    console.log(省元素.parentElement)
+    if ( 省元素.parentElement.id == 省元素.id ) {
+        省元素 = 省元素.parentElement
+    }
+    console.log(省元素)
     const 省元素方位 = 获取元素方位(省元素);
+    console.log(省元素方位)
     const { id } = 省元素;
     数据.省元素 = 省元素;
     数据.id = id;
@@ -74,13 +86,19 @@ const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return +全 + 当前;
       }, 0);
-    Total.innerHTML = `US Level ${分}`;
-    webtitle.innerHTML = `US Level ${分}`;
+    Total.innerHTML = `EU Level ${分}`;
+    webtitle.innerHTML = `EU Level ${分}`;
 }
 添加事件监控(设置等级,'click',e=>{
     e.stopPropagation();
     const 等级 = e.target.getAttribute('data-level');
     if(!等级) return false;
+    if (数据.省元素.nodeName == "g") {
+        console.log(数据.省元素.children)
+        for (const child of 数据.省元素.children) {
+            child.setAttribute('level',等级)
+        }
+    }
     数据.省元素.setAttribute('level',等级);
     全关闭();
     计分();
@@ -112,8 +130,8 @@ const 获取字体样式 = (字体名,回调)=>{
     setTimeout(_=>如何做爱元素.removeAttribute('data-loading'),2e3);
 });
 
-const 宽 = 1150;
-const 高 = 920;
+const 宽 = 1618;
+const 高 = 1249;
 const 比 = 2;
 
 const 画板 = 新建元素('canvas');
@@ -164,7 +182,7 @@ const 保存图像 = _=>{
         // return 下载文件(画板.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`US Level 0.png`);
+            下载文件(地址,`EU Level 0.png`);
 
             输出图像.style.display = '';
             输出图像.querySelector('img').src = 地址;
