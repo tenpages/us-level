@@ -112,8 +112,8 @@ const 获取字体样式 = (字体名,回调)=>{
     setTimeout(_=>如何做爱元素.removeAttribute('data-loading'),2e3);
 });
 
-const 宽 = 1224;
-const 高 = 726;
+const 宽 = 1150;
+const 高 = 920;
 const 比 = 2;
 
 const 画板 = 新建元素('canvas');
