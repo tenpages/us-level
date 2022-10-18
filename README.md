@@ -2,6 +2,7 @@
 Mark your footprint using these simple apps
 
 US: https://tenpages.github.io/us-level/us.html
+
 EU: https://tenpages.github.io/us-level/eu.html
 
 > I'm new to `js` so there might be issues with these apps.
