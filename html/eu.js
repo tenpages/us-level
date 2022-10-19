@@ -202,7 +202,7 @@ const messages = {
             data_level_2: '接地',
             data_level_1: '通過',
             data_level_0: '未踏',
-            pt: '分',
+            pt: '点',
         },
         country_name: {
             UK: 'イギリス',
