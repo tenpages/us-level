@@ -275,7 +275,7 @@ const 全关闭 = _=>{
 const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
-const 本地存储等级们钥匙 = 'china-ex-levels';
+const 本地存储等级们钥匙 = 'eu-levels';
 const 保存等级们 = _=>{
     本地存储.setItem(本地存储等级们钥匙,获取所有省等级们().join(''));
 };
