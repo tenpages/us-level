@@ -7,12 +7,66 @@ const 新建元素 = 名 => 文档.createElement(名);
 const 新建图 = _=> new Image();
 const 添加事件监控 = (元素,事件,回调) => 元素[`on${事件}`] = 回调;// 元素.addEventListener(事件,回调);
 const 获取元素方位 = 元素 => 元素.getBoundingClientRect();
-
+const messages = {
+    English: {
+        message: {
+            data_level_5: 'Lived Here',
+            data_level_4: 'Stayed Here',
+            data_level_3: 'Visited Here',
+            data_level_2: 'Stopped Here',
+            data_level_1: 'Passed Here',
+            data_level_0: 'Never Been Here',
+            pt: 'pt | pts',
+        }
+    },
+    简体中文: {
+        message: {
+            data_level_5: '居住过',
+            data_level_4: '住宿过',
+            data_level_3: '游玩过',
+            data_level_2: '中转过',
+            data_level_1: '路过',
+            data_level_0: '没去过',
+            pt: '分',
+        }
+    },
+    繁體中文: {
+        message: {
+            data_level_5: '居住過',
+            data_level_4: '住宿過',
+            data_level_3: '遊玩過',
+            data_level_2: '中轉過',
+            data_level_1: '路過',
+            data_level_0: '沒去過',
+            pt: '分',
+        }
+    },
+    日本語: {
+        message: {
+            data_level_5: '住居',
+            data_level_4: '宿泊',
+            data_level_3: '訪問',
+            data_level_2: '接地',
+            data_level_1: '通過',
+            data_level_0: '未踏',
+            pt: '分',
+        }
+    }
+}
+const i18n = VueI18n.createI18n({
+    locale: 'English',
+    fallbackLocale: 'English',
+    messages,
+})
+const app1 = Vue.createApp().use(i18n).mount("#Layer_4")
+const app2 = Vue.createApp().use(i18n).mount("#设置等级")
+const app3 = Vue.createApp().use(i18n).mount("#Texts")
 
 const 设置等级标题 = 设置等级.children[0];
 
 const 全关闭 = _=>{
     设置等级样式.display = '';
+    设置语言样式.display = '';
 };
 const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
@@ -34,22 +88,14 @@ const 图形 = 文档.querySelector('svg');
 const 设置等级样式 = 设置等级.style;
 const 最小间距 = 6;
 添加事件监控(图形,'click', e=>{
+    全关闭()
     e.stopPropagation();
 
-    // const { path } = current_path;
-    // if ( current_path[1][0] == 'g' && current_path[2][0] == 'g' ) {
-    //     const { target: }
-    // }
     let { target: 省元素 } = e;
-    console.log(e)
-    console.log(省元素)
-    console.log(省元素.parentElement)
     if ( 省元素.parentElement.id == 省元素.id ) {
         省元素 = 省元素.parentElement
     }
-    console.log(省元素)
     const 省元素方位 = 获取元素方位(省元素);
-    console.log(省元素方位)
     const { id } = 省元素;
     数据.省元素 = 省元素;
     数据.id = id;
@@ -94,7 +140,6 @@ const 计分 = _=>{
     const 等级 = e.target.getAttribute('data-level');
     if(!等级) return false;
     if (数据.省元素.nodeName == "g") {
-        console.log(数据.省元素.children)
         for (const child of 数据.省元素.children) {
             child.setAttribute('level',等级)
         }
@@ -103,6 +148,63 @@ const 计分 = _=>{
     全关闭();
     计分();
     保存等级们();
+})
+
+const 语言 = 文档.querySelector('#Lang');
+console.log(语言)
+const 设置语言样式 = Set_Lang.style;
+添加事件监控(语言,'click', e=>{
+    全关闭()
+    e.stopPropagation();
+
+    设置语言样式.display = 'block';
+    const 设置语言方位 = 获取元素方位(Set_Lang);
+    const 按钮方位 = 获取元素方位(语言);
+    const 当前语言 = Lang.textContent;
+    for (const child of Set_Lang.children) {
+        if ( child.getAttribute('lang') == 当前语言 ) {
+            child.style.background = "#aaa";
+        }
+        else {
+            child.style.background = "#fff";
+        }
+    }
+    
+    let 左 = Math.round(按钮方位.left + 按钮方位.width/2 - 设置语言方位.width/2);
+    左 = Math.min(
+        左,
+        document.body.offsetWidth - 设置语言方位.width - 最小间距
+    );
+    左 = Math.max(
+        左,
+        最小间距
+    );
+
+    let 上 = Math.round(按钮方位.top - 设置语言方位.height - 最小间距);
+    上 = Math.min(
+        上,
+        document.body.offsetHeight - 设置语言方位.height - 最小间距
+    );
+    上 = Math.max(
+        上,
+        最小间距
+    );
+
+    设置语言样式.left = 左 + 'px';
+    设置语言样式.top = 上 + 'px';
+});
+const 更改语言 = (新语言)=>{
+    console.log(新语言)
+    console.log(i18n.global.locale)
+    i18n.global.locale = 新语言
+}
+添加事件监控(Set_Lang,'click',e=>{
+    e.stopPropagation();
+    const 语言 = e.target.getAttribute('lang');
+    if(!语言) return false;
+    Lang.textContent = 语言;
+    全关闭();
+    更改语言(语言);
 })
 
 获取等级们并生效();
