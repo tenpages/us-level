@@ -11,6 +11,12 @@ EU: https://tenpages.github.io/us-level/eu.html
 
 Tap and mark countries, states or terretories you've been to. Tap "Save Image" to save and share your progress.
 
+## Fonts and settings
+
+`html/slice.woff` is built from Noto Sans by Google Fonts. 
+
+`generate-font-slice.js` contains legacy files and configs from `china-ex` repository.
+
 ## References
 These toy apps are created following these previous projects:
 

@@ -1,0 +1,23 @@
+{
+  "name": "china-ex",
+  "version": "0.0.2",
+  "description": "us-level",
+  "main": "html/us.html",
+  "scripts": {
+    "generate-font": "node generate-font-slice.js "
+  },
+  "keywords": [
+    "china"
+  ],
+  "author": "itorr",
+  "license": "MIT",
+  "files": [
+    "html/us.html",
+    "html/document.css",
+    "html/us.js",
+    "html/slice.woff"
+  ],
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
