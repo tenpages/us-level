@@ -302,10 +302,12 @@ const 颜色 = ['#F9CDC7', '#C5F9CB', '#CDE8F4', '#FDE8C4', '#D0DCD7', '#E1CEF5'
 const 颜色_randomizer = Math.floor(Math.random() * 7);
 如何做爱元素.style.backgroundColor = 颜色[颜色_randomizer]
 添加事件监控(如何做爱元素,'click',e=>{
-    const 颜色a = Math.floor(Math.random() * 50) + 176;
-    const 颜色b = Math.floor(Math.random() * 50) + 176;
-    const 颜色c = Math.floor(Math.random() * 50) + 176;
-    如何做爱元素.style.backgroundColor = '#' + 颜色a.toString(16) + 颜色b.toString(16) + 颜色c.toString(16)
+    if (e.target == 文档.body) {
+        const 颜色a = Math.floor(Math.random() * 50) + 176;
+        const 颜色b = Math.floor(Math.random() * 50) + 176;
+        const 颜色c = Math.floor(Math.random() * 50) + 176;
+        如何做爱元素.style.backgroundColor = '#' + 颜色a.toString(16) + 颜色b.toString(16) + 颜色c.toString(16)
+    }
 })
 
 const 设置等级标题 = 设置等级.children[0];
@@ -507,10 +509,8 @@ const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/lo
 const 保存图像 = _=>{
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
-    // open(数据地址);
-    // return ;
     地址变图像元素(数据地址,图=>{
-        上下文.fillStyle = '#b4b4ef';
+        上下文.fillStyle = current_color; //'#b4b4ef';
         上下文.fillRect(
             0,0,
             宽 * 比,宽 * 比
@@ -522,7 +522,6 @@ const 保存图像 = _=>{
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
-        // return 下载文件(画板.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
             下载文件(地址,`US Level 0.png`);
