@@ -11,6 +11,12 @@ EU: https://tenpages.github.io/us-level/eu.html
 
 Tap and mark countries, states or terretories you've been to. Tap "Save Image" to save and share your progress.
 
+## Features
+
+* Tap background to randomly change bg color
+* New "Want to be here" level (0 pts but different color)
+* Change languages in the legend
+
 ## Fonts and settings
 
 `html/slice.woff` is built from Noto Sans by Google Fonts. 
