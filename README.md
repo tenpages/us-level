@@ -17,6 +17,11 @@ Tap and mark countries, states or terretories you've been to. Tap "Save Image" t
 * New "Want to be here" level (0 pts but different color)
 * Change languages in the legend
 
+## Note
+
+There is a short post related to this project in my 
+[blog](https://tenpages.github.io/dev/2022/10/24/level/).
+
 ## Fonts and settings
 
 `html/slice.woff` is built from Noto Sans by Google Fonts. 
