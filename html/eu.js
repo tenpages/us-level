@@ -495,10 +495,8 @@ const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/lo
 const 保存图像 = _=>{
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
-    // open(数据地址);
-    // return ;
     地址变图像元素(数据地址,图=>{
-        上下文.fillStyle = '#b4b4ef';
+        上下文.fillStyle = 如何做爱元素.style.backgroundColor; //'#b4b4ef';
         上下文.fillRect(
             0,0,
             宽 * 比,宽 * 比
@@ -510,7 +508,6 @@ const 保存图像 = _=>{
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
-        // return 下载文件(画板.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
             下载文件(地址,`EU Level 0.png`);

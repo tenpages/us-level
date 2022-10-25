@@ -510,7 +510,7 @@ const 保存图像 = _=>{
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
     地址变图像元素(数据地址,图=>{
-        上下文.fillStyle = current_color; //'#b4b4ef';
+        上下文.fillStyle = 如何做爱元素.style.backgroundColor; //'#b4b4ef';
         上下文.fillRect(
             0,0,
             宽 * 比,宽 * 比
