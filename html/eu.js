@@ -272,6 +272,16 @@ const app3 = Vue.createApp().use(i18n).mount("#Texts")
 
 const 设置等级标题 = 设置等级.children[0];
 
+const 颜色 = ['#F9CDC7', '#C5F9CB', '#CDE8F4', '#FDE8C4', '#D0DCD7', '#E1CEF5', '#D6D6D6'];
+const 颜色_randomizer = Math.floor(Math.random() * 7);
+如何做爱元素.style.backgroundColor = 颜色[颜色_randomizer]
+添加事件监控(如何做爱元素,'click',e=>{
+    const 颜色a = Math.floor(Math.random() * 50) + 176;
+    const 颜色b = Math.floor(Math.random() * 50) + 176;
+    const 颜色c = Math.floor(Math.random() * 50) + 176;
+    如何做爱元素.style.backgroundColor = '#' + 颜色a.toString(16) + 颜色b.toString(16) + 颜色c.toString(16)
+})
+
 const 全关闭 = _=>{
     设置等级样式.display = '';
     设置语言样式.display = '';
