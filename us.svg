@@ -9,16 +9,17 @@
 	.st3{fill:#FF7E7E;}
 	.st4{fill:#A8FFBE;}
 	.st5{fill:#FFB57E;}
-	.st6{fill:#FFFFFF;}
+	.st6{fill:#D6BEFF;}
 	.st7{fill:#FFE57E;}
-	.st8{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st9{fill:none;}
-	.st10{font-family:'LucidaSans-Demi';}
-	.st11{font-size:18px;}
-	.st12{font-size:24px;}
-	.st13{font-size:21px;}
-	.st14{font-size:12px;}
-	.st15{font-size:72px;}
+	.st8{fill:#FFFFFF;}
+	.st9{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:none;}
+	.st11{font-family:'LucidaSans-Demi';}
+	.st12{font-size:18px;}
+	.st13{font-size:24px;}
+	.st14{font-size:21px;}
+	.st15{font-size:12px;}
+	.st16{font-size:72px;}
 </style>
 <rect x="-43.8" y="-7.1" class="st0" width="1920" height="1080"/>
 <g id="Bricks">
@@ -142,170 +143,178 @@
 		C1064.4,663.5,1065.6,659.8,1068.5,659.8z"/>
 </g>
 <g id="Layer_4">
-	<path class="st2" d="M610.2,815.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,817,608.5,815.7,610.2,815.7z"/>
-	<path class="st3" d="M610.2,687.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,689,608.5,687.7,610.2,687.7z"/>
-	<path class="st4" d="M610.2,783.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,785,608.5,783.7,610.2,783.7z"/>
-	<path class="st5" d="M610.2,719.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,721,608.5,719.7,610.2,719.7z"/>
-	<path class="st6" d="M610.2,847.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,849,608.5,847.7,610.2,847.7z"/>
-	<path class="st7" d="M610.2,751.7h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-26
-		C607.2,753,608.5,751.7,610.2,751.7z"/>
-	<path class="st8" d="M610.2,687.7h216.1c1.7,0,3,1.3,3,3v186c0,1.7-1.3,3-3,3H610.2c-1.7,0-3-1.3-3-3v-186
-		C607.2,689,608.5,687.7,610.2,687.7z"/>
-	<path class="st9" d="M617.7,695.3h90.2c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-90.2c-1.7,0-3-1.3-3-3v-10.6
-		C614.7,696.6,616,695.3,617.7,695.3z"/>
-	<text transform="matrix(1 0 0 1 614.7144 710.1761)" class="st10 st11">Lived here </text>
-	<path class="st9" d="M618.3,727.5h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H618.3c-1.7,0-3-1.3-3-3v-10.6
-		C615.3,728.8,616.6,727.5,618.3,727.5z"/>
-	<text transform="matrix(1 0 0 1 615.2642 742.2942)" class="st10 st11">Stayed here </text>
-	<path class="st9" d="M618.7,759.5h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H618.7c-1.7,0-3-1.3-3-3v-10.6
-		C615.7,760.8,617,759.5,618.7,759.5z"/>
-	<text transform="matrix(1 0 0 1 615.7208 774.2933)" class="st10 st11">Visited here </text>
-	<path class="st9" d="M617.7,791.5h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H617.7c-1.7,0-3-1.3-3-3v-10.6
-		C614.7,792.8,616,791.5,617.7,791.5z"/>
-	<text transform="matrix(1 0 0 1 614.7208 806.2934)" class="st10 st11">Alighted here </text>
-	<path class="st9" d="M618.7,823.5h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H618.7c-1.7,0-3-1.3-3-3v-10.6
-		C615.7,824.8,617,823.5,618.7,823.5z"/>
-	<text transform="matrix(1 0 0 1 615.7208 838.2934)" class="st10 st11">Passed here </text>
-	<path class="st9" d="M618.7,855.5h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H618.7c-1.7,0-3-1.3-3-3v-10.6
-		C615.7,856.8,617,855.5,618.7,855.5z"/>
-	<text transform="matrix(1 0 0 1 615.7208 870.2934)" class="st10 st11">Never been here </text>
-	<path class="st9" d="M762.6,695.9H816c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C759.6,697.2,760.9,695.9,762.6,695.9z"/>
-	<text transform="matrix(1 0 0 1 786.197 710.7134)" class="st10 st11">5 pt </text>
-	<path class="st9" d="M762.6,726.9H816c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C759.6,728.2,760.9,726.9,762.6,726.9z"/>
-	<text transform="matrix(1 0 0 1 786.2245 741.7134)" class="st10 st11">4 pt </text>
-	<path class="st9" d="M763.6,758.9H817c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C760.6,760.2,761.9,758.9,763.6,758.9z"/>
-	<text transform="matrix(1 0 0 1 787.2245 773.7134)" class="st10 st11">3 pt </text>
-	<path class="st9" d="M763.6,790.9H817c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C760.6,792.2,761.9,790.9,763.6,790.9z"/>
-	<text transform="matrix(1 0 0 1 787.2245 805.7134)" class="st10 st11">2 pt </text>
-	<path class="st9" d="M763.6,822.9H817c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C760.6,824.2,761.9,822.9,763.6,822.9z"/>
-	<text transform="matrix(1 0 0 1 787.2245 837.7134)" class="st10 st11">1 pt </text>
-	<path class="st9" d="M763.6,854.9H817c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
-		C760.6,856.2,761.9,854.9,763.6,854.9z"/>
-	<text transform="matrix(1 0 0 1 787.2245 869.7134)" class="st10 st11">0 pt </text>
+	<path class="st2" d="M614.1,786.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,787.6,612.4,786.3,614.1,786.3z"/>
+	<path class="st3" d="M614.1,658.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,659.6,612.4,658.3,614.1,658.3z"/>
+	<path class="st4" d="M614.1,754.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,755.6,612.4,754.3,614.1,754.3z"/>
+	<path class="st5" d="M614.1,690.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,691.6,612.4,690.3,614.1,690.3z"/>
+	<path class="st6" d="M614.1,818.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,819.6,612.4,818.3,614.1,818.3z"/>
+	<path class="st7" d="M614.1,722.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,723.6,612.4,722.3,614.1,722.3z"/>
+	<path class="st8" d="M614.1,850.3h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H614.1c-1.7,0-3-1.3-3-3v-26
+		C611.1,851.6,612.4,850.3,614.1,850.3z"/>
+	<path class="st9" d="M614.1,658.3h216.1c1.7,0,3,1.5,3,3.5v217c0,2-1.3,3.5-3,3.5H614.1c-1.7,0-3-1.5-3-3.5v-217
+		C611.1,659.8,612.4,658.3,614.1,658.3z"/>
+	<path class="st10" d="M621.6,665.9h90.2c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-90.2c-1.7,0-3-1.3-3-3v-10.6
+		C618.6,667.2,619.9,665.9,621.6,665.9z"/>
+	<text transform="matrix(1 0 0 1 618.6051 680.7761)" class="st11 st12">Lived here </text>
+	<path class="st10" d="M622.2,698.1h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H622.2c-1.7,0-3-1.3-3-3v-10.6
+		C619.2,699.4,620.5,698.1,622.2,698.1z"/>
+	<text transform="matrix(1 0 0 1 619.1549 712.8942)" class="st11 st12">Stayed here </text>
+	<path class="st10" d="M622.6,730.1h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H622.6c-1.7,0-3-1.3-3-3v-10.6
+		C619.6,731.4,620.9,730.1,622.6,730.1z"/>
+	<text transform="matrix(1 0 0 1 619.6115 744.8932)" class="st11 st12">Visited here </text>
+	<path class="st10" d="M621.6,762.1h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H621.6c-1.7,0-3-1.3-3-3v-10.6
+		C618.6,763.4,619.9,762.1,621.6,762.1z"/>
+	<text transform="matrix(1 0 0 1 618.6115 776.8934)" class="st11 st12">Alighted here </text>
+	<path class="st10" d="M622.6,794.1h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H622.6c-1.7,0-3-1.3-3-3v-10.6
+		C619.6,795.4,620.9,794.1,622.6,794.1z"/>
+	<text transform="matrix(1 0 0 1 619.6115 808.8934)" class="st11 st12">Passed here </text>
+	<path class="st10" d="M622.6,826.1h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H622.6c-1.7,0-3-1.3-3-3v-10.6
+		C619.6,827.4,620.9,826.1,622.6,826.1z"/>
+	<text transform="matrix(1 0 0 1 619.6115 840.8934)" class="st11 st12">Want to be here</text>
+	<path class="st10" d="M766.5,666.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C763.5,667.8,764.8,666.5,766.5,666.5z"/>
+	<text transform="matrix(1 0 0 1 790.0876 681.3134)" class="st11 st12">5 pt </text>
+	<path class="st10" d="M766.5,697.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C763.5,698.8,764.8,697.5,766.5,697.5z"/>
+	<text transform="matrix(1 0 0 1 790.1151 712.3134)" class="st11 st12">4 pt </text>
+	<path class="st10" d="M767.5,729.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C764.5,730.8,765.8,729.5,767.5,729.5z"/>
+	<text transform="matrix(1 0 0 1 791.1151 744.3134)" class="st11 st12">3 pt </text>
+	<path class="st10" d="M767.5,761.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C764.5,762.8,765.8,761.5,767.5,761.5z"/>
+	<text transform="matrix(1 0 0 1 791.1151 776.3134)" class="st11 st12">2 pt </text>
+	<path class="st10" d="M767.5,793.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C764.5,794.8,765.8,793.5,767.5,793.5z"/>
+	<text transform="matrix(1 0 0 1 791.1151 808.3134)" class="st11 st12">1 pt </text>
+	<path class="st10" d="M767.5,825.5h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C764.5,826.8,765.8,825.5,767.5,825.5z"/>
+	<text transform="matrix(1 0 0 1 791.1151 840.3134)" class="st11 st12">0 pt </text>
+	<path class="st10" d="M623,856h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H623c-1.7,0-3-1.3-3-3V859C620,857.3,621.3,856,623,856z
+		"/>
+	<text transform="matrix(1 0 0 1 620.0115 870.7708)" class="st11 st12">Never been here </text>
+	<path class="st10" d="M767.9,855.4h53.4c1.7,0,3,1.3,3,3V869c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6
+		C764.9,856.7,766.2,855.4,767.9,855.4z"/>
+	<text transform="matrix(1 0 0 1 791.5151 870.1907)" class="st11 st12">0 pt </text>
 </g>
 <g id="Texts">
-	<rect x="579.4" y="181" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 589.4671 206.0187)" class="st10 st12">MN</text>
-	<rect x="588.4" y="287.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 605.1514 312.5305)" class="st10 st12">IA</text>
-	<rect x="608.4" y="380.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 618.0379 405.5307)" class="st10 st12">MO</text>
-	<rect x="617.4" y="475.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 629.2762 500.5307)" class="st10 st12">AR</text>
-	<rect x="617.4" y="565.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 630.659 590.5308)" class="st10 st12">LA</text>
-	<rect x="678.4" y="508.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 689.5378 533.5308)" class="st10 st12">MS</text>
-	<rect x="747.4" y="508.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 760.6589 533.5308)" class="st10 st12">AL</text>
-	<rect x="826.4" y="501.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 837.4031 526.5306)" class="st10 st12">GA</text>
-	<rect x="896.4" y="480.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 908.6511 505.5307)" class="st10 st12">SC</text>
-	<rect x="885.4" y="428.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 896.5378 453.5307)" class="st10 st12">NC</text>
-	<rect x="905.4" y="380.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 917.6511 405.5307)" class="st10 st12">VA</text>
-	<rect x="752.4" y="428.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 764.9208 453.5307)" class="st10 st12">TN</text>
-	<rect x="747.4" y="391.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 760.155 416.5307)" class="st10 st12">KY</text>
-	<rect x="729.4" y="326.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 745.6649 351.5306)" class="st10 st12">IN</text>
-	<rect x="672.4" y="326.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 690.5339 351.5306)" class="st10 st12">IL</text>
-	<rect x="789.4" y="327.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 799.9169 352.5306)" class="st10 st12">OH</text>
-	<rect x="842.4" y="348.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 854.4647 372.4388)" class="st10 st13">WV</text>
-	<rect x="896.4" y="331.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 909.0183 355.4388)" class="st10 st13">MD</text>
-	<rect x="886.4" y="287.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 898.9031 312.5306)" class="st10 st12">PA</text>
-	<rect x="666.4" y="212.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 680.5261 237.5307)" class="st10 st12">WI</text>
-	<rect x="760.4" y="212.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 775.7859 237.5307)" class="st10 st12">MI</text>
-	<rect x="921.4" y="203.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 933.9208 228.5307)" class="st10 st12">NY</text>
-	<rect x="1038.4" y="145.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 1049.538 170.5307)" class="st10 st12">ME</text>
-	<rect x="999.4" y="225.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 1009.9109 250.5307)" class="st10 st12">MA</text>
-	<rect x="847.4" y="621.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 862.0419 646.5307)" class="st10 st12">FL</text>
-	<rect x="484.4" y="569.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 498.79 594.5308)" class="st10 st12">TX</text>
-	<rect x="484.4" y="452.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 495.1512 477.5307)" class="st10 st12">OK</text>
-	<rect x="484.4" y="374.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 496.6512 399.5307)" class="st10 st12">KS</text>
-	<rect x="469.4" y="299.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 481.417 324.5306)" class="st10 st12">NE</text>
-	<rect x="455.4" y="225.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 467.6512 250.5307)" class="st10 st12">SD</text>
-	<rect x="455.4" y="150.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 466.5379 175.5307)" class="st10 st12">ND</text>
-	<rect x="305.4" y="156.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 317.0418 181.5307)" class="st10 st12">MT</text>
-	<rect x="321.4" y="252.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 331.7821 277.5306)" class="st10 st12">WY</text>
-	<rect x="347.4" y="357.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 358.1512 382.5306)" class="st10 st12">CO</text>
-	<rect x="334.4" y="480.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 344.4248 505.5307)" class="st10 st12">NM</text>
-	<rect x="235.4" y="480.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 248.1551 505.5307)" class="st10 st12">AZ</text>
-	<rect x="235.4" y="341.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 247.9207 366.5306)" class="st10 st12">UT</text>
-	<rect x="209.4" y="228.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 225.8992 253.5307)" class="st10 st12">ID</text>
-	<rect x="148.4" y="325.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 160.1649 350.5306)" class="st10 st12">NV</text>
-	<rect x="119.4" y="436.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 131.0243 461.5307)" class="st10 st12">CA</text>
-	<rect x="100.4" y="218.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 111.4032 243.5307)" class="st10 st12">OR</text>
-	<rect x="90.4" y="141.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 99.6513 166.5307)" class="st10 st12">WA</text>
-	<rect x="151" y="709" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 162.5993 733.9421)" class="st10 st12">AK</text>
-	<rect x="340.3" y="728.2" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 356.5481 753.2007)" class="st10 st12">HI</text>
-	<rect x="949.4" y="290.5" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 966.5399 313.3466)" class="st10 st11">NJ</text>
-	<rect x="946.7" y="324.4" class="st9" width="58.3" height="22"/>
-	<text transform="matrix(1 0 0 1 967.3579 339.8257)" class="st10 st14">DE</text>
-	<rect x="942" y="354.9" class="st9" width="31.5" height="17.6"/>
-	<text transform="matrix(1 0 0 1 948.9185 368.0621)" class="st10 st14">DC</text>
-	<rect x="992.6" y="256.5" class="st9" width="31.5" height="17.6"/>
-	<text transform="matrix(1 0 0 1 1000.1531 269.6122)" class="st10 st14">CT</text>
-	<rect x="1018.6" y="256.5" class="st9" width="31.5" height="17.6"/>
-	<text transform="matrix(1 0 0 1 1028.1512 269.6122)" class="st10 st14">RI</text>
-	<rect x="990.6" y="188.5" class="st9" width="31.5" height="17.6"/>
-	<text transform="matrix(1 0 0 1 998.4667 201.6122)" class="st10 st14">VT</text>
-	<rect x="1015.6" y="188.5" class="st9" width="31.5" height="17.6"/>
-	<text transform="matrix(1 0 0 1 1022.2274 201.6122)" class="st10 st14">NH</text>
-	<rect x="1044.7" y="738.3" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 1061.3748 761.1207)" class="st10 st11">AS</text>
-	<rect x="999.7" y="738.3" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 1015.3513 761.1207)" class="st10 st11">MP</text>
-	<rect x="948.7" y="738.3" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 963.8845 761.1207)" class="st10 st11">GU</text>
-	<rect x="1044.7" y="613.3" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 1064.8416 636.1207)" class="st10 st11">VI</text>
-	<rect x="966.7" y="613.3" class="st9" width="58.3" height="32.5"/>
-	<text transform="matrix(1 0 0 1 983.3748 636.1207)" class="st10 st11">PR</text>
+	<rect x="579.4" y="181" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 589.4671 206.0187)" class="st11 st13">MN</text>
+	<rect x="588.4" y="287.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 605.1514 312.5305)" class="st11 st13">IA</text>
+	<rect x="608.4" y="380.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 618.0379 405.5307)" class="st11 st13">MO</text>
+	<rect x="617.4" y="475.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 629.2762 500.5307)" class="st11 st13">AR</text>
+	<rect x="617.4" y="565.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 630.659 590.5308)" class="st11 st13">LA</text>
+	<rect x="678.4" y="508.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 689.5378 533.5308)" class="st11 st13">MS</text>
+	<rect x="747.4" y="508.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 760.6589 533.5308)" class="st11 st13">AL</text>
+	<rect x="826.4" y="501.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 837.4031 526.5306)" class="st11 st13">GA</text>
+	<rect x="896.4" y="480.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 908.6511 505.5307)" class="st11 st13">SC</text>
+	<rect x="885.4" y="428.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 896.5378 453.5307)" class="st11 st13">NC</text>
+	<rect x="905.4" y="380.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 917.6511 405.5307)" class="st11 st13">VA</text>
+	<rect x="752.4" y="428.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 764.9208 453.5307)" class="st11 st13">TN</text>
+	<rect x="747.4" y="391.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 760.155 416.5307)" class="st11 st13">KY</text>
+	<rect x="729.4" y="326.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 745.6649 351.5306)" class="st11 st13">IN</text>
+	<rect x="672.4" y="326.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 690.5339 351.5306)" class="st11 st13">IL</text>
+	<rect x="789.4" y="327.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 799.9169 352.5306)" class="st11 st13">OH</text>
+	<rect x="842.4" y="348.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 854.4647 372.4388)" class="st11 st14">WV</text>
+	<rect x="896.4" y="331.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 909.0183 355.4388)" class="st11 st14">MD</text>
+	<rect x="886.4" y="287.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 898.9031 312.5306)" class="st11 st13">PA</text>
+	<rect x="666.4" y="212.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 680.5261 237.5307)" class="st11 st13">WI</text>
+	<rect x="760.4" y="212.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 775.7859 237.5307)" class="st11 st13">MI</text>
+	<rect x="921.4" y="203.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 933.9208 228.5307)" class="st11 st13">NY</text>
+	<rect x="1038.4" y="145.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 1049.538 170.5307)" class="st11 st13">ME</text>
+	<rect x="999.4" y="225.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 1009.9109 250.5307)" class="st11 st13">MA</text>
+	<rect x="847.4" y="621.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 862.0419 646.5307)" class="st11 st13">FL</text>
+	<rect x="484.4" y="569.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 498.79 594.5308)" class="st11 st13">TX</text>
+	<rect x="484.4" y="452.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 495.1512 477.5307)" class="st11 st13">OK</text>
+	<rect x="484.4" y="374.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 496.6512 399.5307)" class="st11 st13">KS</text>
+	<rect x="469.4" y="299.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 481.417 324.5306)" class="st11 st13">NE</text>
+	<rect x="455.4" y="225.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 467.6512 250.5307)" class="st11 st13">SD</text>
+	<rect x="455.4" y="150.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 466.5379 175.5307)" class="st11 st13">ND</text>
+	<rect x="305.4" y="156.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 317.0418 181.5307)" class="st11 st13">MT</text>
+	<rect x="321.4" y="252.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 331.7821 277.5306)" class="st11 st13">WY</text>
+	<rect x="347.4" y="357.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 358.1512 382.5306)" class="st11 st13">CO</text>
+	<rect x="334.4" y="480.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 344.4248 505.5307)" class="st11 st13">NM</text>
+	<rect x="235.4" y="480.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 248.1551 505.5307)" class="st11 st13">AZ</text>
+	<rect x="235.4" y="341.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 247.9207 366.5306)" class="st11 st13">UT</text>
+	<rect x="209.4" y="228.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 225.8992 253.5307)" class="st11 st13">ID</text>
+	<rect x="148.4" y="325.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 160.1649 350.5306)" class="st11 st13">NV</text>
+	<rect x="119.4" y="436.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 131.0243 461.5307)" class="st11 st13">CA</text>
+	<rect x="100.4" y="218.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 111.4032 243.5307)" class="st11 st13">OR</text>
+	<rect x="90.4" y="141.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 99.6513 166.5307)" class="st11 st13">WA</text>
+	<rect x="151" y="709" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 162.5993 733.9421)" class="st11 st13">AK</text>
+	<rect x="340.3" y="728.2" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 356.5481 753.2007)" class="st11 st13">HI</text>
+	<rect x="949.4" y="290.5" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 966.5399 313.3466)" class="st11 st12">NJ</text>
+	<rect x="946.7" y="324.4" class="st10" width="58.3" height="22"/>
+	<text transform="matrix(1 0 0 1 967.3579 339.8257)" class="st11 st15">DE</text>
+	<rect x="942" y="354.9" class="st10" width="31.5" height="17.6"/>
+	<text transform="matrix(1 0 0 1 948.9185 368.0621)" class="st11 st15">DC</text>
+	<rect x="992.6" y="256.5" class="st10" width="31.5" height="17.6"/>
+	<text transform="matrix(1 0 0 1 1000.1531 269.6122)" class="st11 st15">CT</text>
+	<rect x="1018.6" y="256.5" class="st10" width="31.5" height="17.6"/>
+	<text transform="matrix(1 0 0 1 1028.1512 269.6122)" class="st11 st15">RI</text>
+	<rect x="990.6" y="188.5" class="st10" width="31.5" height="17.6"/>
+	<text transform="matrix(1 0 0 1 998.4667 201.6122)" class="st11 st15">VT</text>
+	<rect x="1015.6" y="188.5" class="st10" width="31.5" height="17.6"/>
+	<text transform="matrix(1 0 0 1 1022.2274 201.6122)" class="st11 st15">NH</text>
+	<rect x="1044.7" y="738.3" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 1061.3748 761.1207)" class="st11 st12">AS</text>
+	<rect x="999.7" y="738.3" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 1015.3513 761.1207)" class="st11 st12">MP</text>
+	<rect x="948.7" y="738.3" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 963.8845 761.1207)" class="st11 st12">GU</text>
+	<rect x="1044.7" y="613.3" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 1064.8416 636.1207)" class="st11 st12">VI</text>
+	<rect x="966.7" y="613.3" class="st10" width="58.3" height="32.5"/>
+	<text transform="matrix(1 0 0 1 983.3748 636.1207)" class="st11 st12">PR</text>
 </g>
-<text transform="matrix(1 0 0 1 393.8206 96.3951)" class="st10 st15">US Level 0</text>
+<text transform="matrix(1 0 0 1 393.8206 96.3951)" class="st11 st16">US Level 0</text>
 </svg>

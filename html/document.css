@@ -103,6 +103,10 @@ a {
 #设置等级 a[data-level="1"] {
   background: #88AEFF;
 }
+#设置等级 h2[data-level="0"][alt],
+#设置等级 a[data-level="0"][alt] {
+  background: #d6beff;
+}
 .按钮 {
   background: #FFF;
   box-shadow: 0 0 0 4px #111;

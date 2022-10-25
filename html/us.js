@@ -15,6 +15,7 @@ const messages = {
             data_level_3: 'Visited Here',
             data_level_2: 'Stopped Here',
             data_level_1: 'Passed Here',
+            data_level_0_alt: 'Want to be Here',
             data_level_0: 'Never Been Here',
             pt: 'pt | pts',
         },
@@ -84,6 +85,7 @@ const messages = {
             data_level_3: '游玩过',
             data_level_2: '中转过',
             data_level_1: '路过',
+            data_level_0_alt: '想要去',
             data_level_0: '没去过',
             pt: '分',
         },
@@ -153,6 +155,7 @@ const messages = {
             data_level_3: '遊玩過',
             data_level_2: '中轉過',
             data_level_1: '路過',
+            data_level_0_alt: '想要去',
             data_level_0: '沒去過',
             pt: '分',
         },
@@ -222,6 +225,7 @@ const messages = {
             data_level_3: '訪問',
             data_level_2: '接地',
             data_level_1: '通過',
+            data_level_0_alt: '行きたい',
             data_level_0: '未踏',
             pt: '分',
         },
@@ -369,6 +373,9 @@ const 计分 = _=>{
     const 等级 = e.target.getAttribute('data-level');
     if(!等级) return false;
     数据.省元素.setAttribute('level',等级);
+    const alt = e.target.hasAttribute('alt');
+    if (alt) 数据.省元素.setAttribute('alt',true)
+    else 数据.省元素.setAttribute('alt',false);
     全关闭();
     计分();
     保存等级们();
