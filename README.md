@@ -26,7 +26,9 @@ Tap and mark countries, states or terretories you've been to. Tap "Save Image" t
 
 ## Disclaimer
 
-Countries potrayed in the maps are highly abstracted. Only major parts of countries are illustrated. For EU version, only sovereign countries with recognition from overwhelming majority of other countries in the world (as of 2022-10-25) are included.
+Countries potrayed in the maps are highly abstracted. Only major parts of countries are illustrated. For the European version, only sovereign countries with recognition from overwhelming majority of other countries in the world (as of 2022-10-25) are included.
+
+Definitions of levels are deliberately not specified. Please use at your own discretion. I'd only suggest "higher the points, higher the 'involvements' you have for that place".
 
 ## Fonts and settings
 
