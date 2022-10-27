@@ -401,6 +401,19 @@ const 计分 = _=>{
     计分();
     保存等级们();
 })
+添加事件监控(Reset,'click',e=>{
+    获取所有省元素们().forEach((元素,下标)=>{
+        元素.setAttribute('level','0')
+        元素.setAttribute('alt', false);
+        if (元素.nodeName == 'g') {
+            for (const child of 元素.children) {
+                child.setAttribute('level','0');
+                child.setAttribute('alt', false);
+            }
+        }
+    })
+    保存等级们();
+})
 
 const 语言 = 文档.querySelector('#Lang');
 console.log(语言)
