@@ -3,7 +3,7 @@ Mark your footprint using these simple apps
 
 US: https://tenpages.github.io/us-level/us.html
 
-EU: https://tenpages.github.io/us-level/eu.html
+Europe: https://tenpages.github.io/us-level/eu.html
 
 > I'm new to `js` so there might be issues with these apps.
 
@@ -20,7 +20,8 @@ Tap and mark countries, states or terretories you've been to. Tap "Save Image" t
 
 ## Diary
 
-There is a short post related to this project in my 
+* African ver planning
+* There is a short post related to this project in my 
 [blog](https://tenpages.github.io/dev/2022/10/24/level/).
 
 ## Disclaimer
