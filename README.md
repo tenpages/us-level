@@ -7,7 +7,7 @@ Europe: https://tenpages.github.io/us-level/eu.html
 
 > I'm new to `js` so there might be issues with these apps. Please let me know if there is anything wrong to [issues](https://github.com/tenpages/us-level/issues) or fix them with [pull requests](https://github.com/tenpages/us-level/pulls).
 
-> Since it is viral now: I'm looking for internships please give me one (this is a joke but I am looking for one)
+> Since it is viral now: I'm looking for internships please give me one (this is a joke but I am looking for one. anyway.)
 
 ## How to
 
