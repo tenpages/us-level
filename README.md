@@ -3,9 +3,11 @@ Mark your footprint using these simple apps
 
 US: https://tenpages.github.io/us-level/us.html
 
-EU: https://tenpages.github.io/us-level/eu.html
+Europe: https://tenpages.github.io/us-level/eu.html
 
-> I'm new to `js` so there might be issues with these apps.
+> I'm new to `js` so there might be issues with these apps. Please let me know if there is anything wrong to [issues](https://github.com/tenpages/us-level/issues) or fix them with [pull requests](https://github.com/tenpages/us-level/pulls).
+
+> Since it is viral now: I'm looking for internships please give me one (this is a joke but I am looking for one. anyway.)
 
 ## How to
 
@@ -20,12 +22,15 @@ Tap and mark countries, states or terretories you've been to. Tap "Save Image" t
 
 ## Diary
 
-There is a short post related to this project in my 
+* African ver planning
+* There is a short post related to this project in my 
 [blog](https://tenpages.github.io/dev/2022/10/24/level/).
 
 ## Disclaimer
 
-Countries potrayed in the maps are highly abstracted. Only major parts of countries are illustrated. For EU version, only sovereign countries with recognition from overwhelming majority of other countries in the world (as of 2022-10-25) are included.
+Countries potrayed in the maps are highly abstracted. Only major parts of countries are illustrated. For the European version, only sovereign countries with recognition from overwhelming majority of other countries in the world (as of 2022-10-25) are included.
+
+Definitions of levels are deliberately not specified. Please use at your own discretion. I'd only suggest "higher the points, higher the 'involvements' you have for that place".
 
 ## Fonts and settings
 
