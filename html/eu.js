@@ -368,8 +368,8 @@ const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return +全 + 当前;
       }, 0);
-    Total.innerHTML = `EU Level ${分}`;
-    webtitle.innerHTML = `EU Level ${分}`;
+    Total.innerHTML = `Europe Level ${分}`;
+    webtitle.innerHTML = `Europe Level ${分}`;
 }
 添加事件监控(设置等级,'click',e=>{
     e.stopPropagation();
@@ -526,7 +526,7 @@ const 保存图像 = _=>{
         );
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`EU Level 0.png`);
+            下载文件(地址,`Europe Level 0.png`);
 
             输出图像.style.display = '';
             输出图像.querySelector('img').src = 地址;
