@@ -321,15 +321,25 @@ const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
 const 本地存储等级们钥匙 = 'us-levels';
 const 保存等级们 = _=>{
-    本地存储.setItem(本地存储等级们钥匙,获取所有省等级们().join(''));
+    let 本地存储value = ""
+    for (const 省元素 of 获取所有省元素们()) {
+        if (省元素.getAttribute('alt') == "true") {
+            本地存储value += '-'
+            console.log("省元素")
+        }
+        else 本地存储value += 省元素.getAttribute('level')||0
+    }
+    console.log(本地存储value)
+    本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^\d{56}$/;
+const 省等级们正则 = /^[\d|-]{56}$/;
 const 获取等级们并生效 = _=>{
     const 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
-        元素.setAttribute('level',等级们[下标])
+        元素.setAttribute('level',等级们[下标]=='-'?'0':等级们[下标])
+        if (等级们[下标]=='-') 元素.setAttribute('alt', true);
     })
 };
 const 图形 = 文档.querySelector('svg');
