@@ -7,6 +7,8 @@ Europe: https://tenpages.github.io/us-level/eu.html
 
 > I'm new to `js` so there might be issues with these apps. Please let me know if there is anything wrong to [issues](https://github.com/tenpages/us-level/issues) or fix them with [pull requests](https://github.com/tenpages/us-level/pulls).
 
+> I'm looking for internships please give me one (this is a joke but I'm am looking for one anyway)
+
 ## How to
 
 Tap and mark countries, states or terretories you've been to. Tap "Save Image" to save and share your progress.
