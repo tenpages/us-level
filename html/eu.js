@@ -269,7 +269,7 @@ const messages = {
             data_level_1: 'Pase por Aqui',
             data_level_0_alt: 'Quiero ir',
             data_level_0: 'Nunca he estado',
-            pt: 'pts',
+            pt: 'pt | pts',
         },
         country_name: {
             UK: 'Reino Unido',
