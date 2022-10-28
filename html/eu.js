@@ -310,7 +310,7 @@ const messages = {
             Romania: 'Romania',
             Moldova: 'Moldova',
             Liechtenstein: 'Liechtenstein',
-            Turkey: 'Turquia',
+            Turkey: 'Turquía',
             Cyprus: 'Chipre',
             Vatican_City: 'Ciudad del Vaticano',
             San_Marino: 'San Marino',
