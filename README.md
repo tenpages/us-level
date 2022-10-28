@@ -15,7 +15,7 @@ Tap and mark countries, states or terretories you've been to. Tap "Save Image" t
 
 ## Features
 
-* Added Espanol version
+* Added Espanol version with help from @jesrivera95
 > Could use help to create different language versions. PR please!
 * Automatically store your progess locally so remember to come back and update your progress!
 * Tap background to randomly change bg color
