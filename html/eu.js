@@ -332,7 +332,7 @@ const messages = {
             data_level_1: 'Проезжал',
             data_level_0_alt: 'Хочу побывать',
             data_level_0: 'Никогда не был',
-            pt: 'очк.',
+            pt: 'ед.',
         },
         country_name: {
             UK: 'Великобритания',
