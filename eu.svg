@@ -24,9 +24,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    showgrid="false"
-   inkscape:zoom="7.9078203"
-   inkscape:cx="991.92948"
-   inkscape:cy="999.89627"
+   inkscape:zoom="11.183347"
+   inkscape:cx="1019.5517"
+   inkscape:cy="936.03462"
    inkscape:window-width="3840"
    inkscape:window-height="2054"
    inkscape:window-x="-11"
@@ -195,7 +195,11 @@
 	<path
    id="Serbia"
    class="st0"
-   d="M1068.5,1001.5h-102c-1.7,0-3-1.3-3-3v-118c0-1.7,1.3-3,3-3h102c1.7,0,3,1.3,3,3v118   C1071.5,1000.2,1070.2,1001.5,1068.5,1001.5z" />
+   d="M1068.5,1001.5h-102c-1.7,0-3-1.3-3-3v-118c0-1.7,1.3-3,3-3h102c1.7,0,3,1.3,3,3v118   C1071.5,1000.2,1070.2,1001.5,1068.5,1001.5z" /><path
+   id="Kosovo"
+   class="st0"
+   d="m 1030.3069,1001.5955 h -31.63043 c -1.34435,0 -2.37234,-0.7372 -2.37234,-1.7011 v -14.74292 c 0,-0.96396 1.02799,-1.70111 2.37234,-1.70111 h 31.63043 c 1.3443,0 2.3723,0.73715 2.3723,1.70111 v 14.74292 c 0,0.9639 -1.028,1.7011 -2.3723,1.7011 z"
+   style="fill:#ffffff;stroke:#000000;stroke-width:2.00885;stroke-miterlimit:10" />
 	<path
    id="Montenegro"
    class="st0"
@@ -842,6 +846,13 @@
    width="154"
    height="49"
    id="rect281" />
+   <text
+   class="st13 st12"
+   id="text292"
+   style="font-size:12.2315px;font-family:LucidaSans-Demi;stroke-width:0.679526"
+   x="891.71246"
+   y="1118.8973"
+   transform="scale(1.1236168,0.88998314)">Kos</text>
 	<text
    transform="matrix(1 0 0 1 1036.5756 1021.1392)"
    class="st13 st23"
@@ -1027,17 +1038,4 @@
    class="st13 st15"
    id="text349">Russia</text>
 </g>
-<rect
-   style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.3951;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-   id="rect1229"
-   width="34.753773"
-   height="22.16012"
-   x="997.81012"
-   y="979.05719"
-   ry="3.2459469" /><text
-   class="st13 st12"
-   id="text279-4"
-   style="font-size:16.3804px;font-family:LucidaSans-Demi;stroke-width:0.910024"
-   x="1099.8989"
-   y="906.93445"
-   transform="scale(0.91002434,1.0988717)">Kos</text></svg>
+</svg>
