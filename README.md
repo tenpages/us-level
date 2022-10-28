@@ -11,7 +11,7 @@ Europe: https://tenpages.github.io/us-level/eu.html
 
 ## How to
 
-Tap and mark countries, states or terretories you've been to. Tap "Save Image" to save and share your progress.
+Tap and mark countries, states or terretories you've been to. Tap "Save" to save it as image and share your progress.
 
 ## Features
 
