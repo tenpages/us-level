@@ -24,8 +24,7 @@ Tap and mark countries, states or terretories you've been to. Tap "Save" to save
 
 ## Diary
 
-* African ver planning
-* There is a short post related to this project in my 
+There is a short post related to this project in my 
 [blog](https://tenpages.github.io/dev/2022/10/24/level/).
 
 ## Disclaimer
