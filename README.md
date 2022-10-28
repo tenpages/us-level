@@ -33,6 +33,8 @@ Countries potrayed in the maps are highly abstracted. Only major parts of countr
 
 Definitions of levels are deliberately not specified. Please use at your own discretion. I'd only suggest "higher the points, higher the 'involvements' you have for that place".
 
+Please feel free to create other versions using this code, so long as they are released under the same license. I do not have future plans on creating new versions, as my knowledge in other regions might not be sufficient for me to do so.
+
 ## Fonts and settings
 
 `html/slice.woff` is built from Noto Sans by Google Fonts. 
