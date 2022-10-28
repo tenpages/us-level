@@ -290,13 +290,13 @@ const messages = {
     },
     Español: {
         message: {
-            data_level_5: 'He Vivido Aqui',
-            data_level_4: 'Me He Quedado Aqui',
-            data_level_3: 'He Visitado Aqui',
-            data_level_2: 'Me He Detuvido Aqui',
-            data_level_1: 'He Pasado por Aqui',
+            data_level_5: 'Vivido Aqui',
+            data_level_4: 'Quedado Aqui',
+            data_level_3: 'Visitado Aqui',
+            data_level_2: 'Detuvido Aqui',
+            data_level_1: 'Pase por Aqui',
             data_level_0_alt: 'Quiero ir',
-            data_level_0: 'Nunca he estado Aqui',
+            data_level_0: 'Nunca he estado',
             pt: 'puntos',
         },
         country_name: {
