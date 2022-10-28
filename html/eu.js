@@ -375,7 +375,7 @@ const messages = {
             Liechtenstein: 'Лихтенштейн',
             Turkey: 'Турция',
             Cyprus: 'Кипр',
-            Vatican_City: 'Город Ватика',
+            Vatican_City: 'Город Ватикан',
             San_Marino: 'Сан-Марино',
             Iceland: 'Исландия',
             Russia: 'Россия',
