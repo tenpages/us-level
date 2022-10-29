@@ -1,583 +1,432 @@
 <!DOCTYPE html>
 <html lang="zh-Hans" data-loading>
-
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title id="webtitle">Europe Level 0</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="webtitle">Europe Level 0</title>
 	<meta name="description" content="Europe Level">
-	<link rel="stylesheet" href="document.css?v=9">
+    <link rel="stylesheet" href="document.css?v=9">
 </head>
-
 <body>
 
-	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-		x="0px" y="0px" viewBox="0 0 1618 1249" style="enable-background:new 0 0 1618 1249;" xml:space="preserve">
-		<style></style>
-		<style>
-			text {
-				font-family: slice, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-				fill: #111;
-				font-size: 30px;
-			}
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 1618 1249" style="enable-background:new 0 0 1618 1249;" xml:space="preserve">
+<style></style>
+<style>
+text{
+	font-family: slice,sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	fill:#111;
+	font-size:30px;
+}
+#title{font-size:60px;}
+#Total{font-size:60px;}
+#地区 path,
+#地区 rect,
+polyline{
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	stroke:#000;
+	stroke-width:4;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+}
+#地区 path,
+#地区 rect{
+	fill:#FFF;
+	cursor: pointer;
+	pointer-events: auto;
+}
+polyline{fill:none;pointer-events:none;}
+#地区 > *[level="5"]{fill:#FF7E7E;}
+#地区 > *[level="4"]{fill:#FFB57E;}
+#地区 > *[level="3"]{fill:#FFE57E;}
+#地区 > *[level="2"]{fill:#A8FFBE;}
+#地区 > *[level="1"]{fill:#88AEFF;}
+#地区 > *[level="0"][alt="true"]{fill:#d6beff;}
+#地区 > g > *[level="5"]{fill:#FF7E7E;}
+#地区 > g > *[level="4"]{fill:#FFB57E;}
+#地区 > g > *[level="3"]{fill:#FFE57E;}
+#地区 > g > *[level="2"]{fill:#A8FFBE;}
+#地区 > g > *[level="1"]{fill:#88AEFF;}
+#地区 > g > *[level="0"][alt="true"]{fill:#d6beff;}
+.level-border{
+	fill-rule:evenodd;
+	clip-rule:evenodd;
+	fill:none;
+	stroke:#000000;
+	stroke-width:4;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-miterlimit:10;
+}
+</style>
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st1{display:none;fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#88AEFF;}
+	.st3{fill:#FF7E7E;}
+	.st4{fill:#A8FFBE;}
+	.st5{fill:#FFB57E;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:#FFE57E;}
+	.st24{fill:#d6beff;}
+	.st8{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:none;}
+	.st11{font-size:18px;}
+	.st13{font-size:72px;}
+	.st14{font-size:30px;}
+	.st15{font-size:25px;}
+	.st16{font-size:22px;}
+	.st17{font-size:28px;}
+	.st18{font-size:26px;}
+	.st19{font-size:16px;}
+	.st20{font-size:20px;}
+	.st21{font-size:24px;}
+	.st22{font-size:14px;}
+	.st23{font-size:12px;}
+</style>
 
-			#title {
-				font-size: 60px;
-			}
-
-			#Total {
-				font-size: 60px;
-			}
-
-			#地区 path,
-			#地区 rect,
-			polyline {
-				fill-rule: evenodd;
-				clip-rule: evenodd;
-				stroke: #000;
-				stroke-width: 4;
-				stroke-linecap: round;
-				stroke-linejoin: round;
-			}
-
-			#地区 path,
-			#地区 rect {
-				fill: #FFF;
-				cursor: pointer;
-				pointer-events: auto;
-			}
-
-			polyline {
-				fill: none;
-				pointer-events: none;
-			}
-
-			#地区>*[level="5"] {
-				fill: #FF7E7E;
-			}
-
-			#地区>*[level="4"] {
-				fill: #FFB57E;
-			}
-
-			#地区>*[level="3"] {
-				fill: #FFE57E;
-			}
-
-			#地区>*[level="2"] {
-				fill: #A8FFBE;
-			}
-
-			#地区>*[level="1"] {
-				fill: #88AEFF;
-			}
-
-			#地区>*[level="0"][alt="true"] {
-				fill: #d6beff;
-			}
-
-			#地区>g>*[level="5"] {
-				fill: #FF7E7E;
-			}
-
-			#地区>g>*[level="4"] {
-				fill: #FFB57E;
-			}
-
-			#地区>g>*[level="3"] {
-				fill: #FFE57E;
-			}
-
-			#地区>g>*[level="2"] {
-				fill: #A8FFBE;
-			}
-
-			#地区>g>*[level="1"] {
-				fill: #88AEFF;
-			}
-
-			#地区>g>*[level="0"][alt="true"] {
-				fill: #d6beff;
-			}
-
-			.level-border {
-				fill-rule: evenodd;
-				clip-rule: evenodd;
-				fill: none;
-				stroke: #000000;
-				stroke-width: 4;
-				stroke-linecap: round;
-				stroke-linejoin: round;
-				stroke-miterlimit: 10;
-			}
-		</style>
-		<style type="text/css">
-			.st0 {
-				fill: #FFFFFF;
-				stroke: #000000;
-				stroke-width: 3;
-				stroke-miterlimit: 10;
-			}
-
-			.st1 {
-				display: none;
-				fill: #FFFFFF;
-				stroke: #000000;
-				stroke-width: 3;
-				stroke-miterlimit: 10;
-			}
-
-			.st2 {
-				fill: #88AEFF;
-			}
-
-			.st3 {
-				fill: #FF7E7E;
-			}
-
-			.st4 {
-				fill: #A8FFBE;
-			}
-
-			.st5 {
-				fill: #FFB57E;
-			}
-
-			.st6 {
-				fill: #FFFFFF;
-			}
-
-			.st7 {
-				fill: #FFE57E;
-			}
-
-			.st24 {
-				fill: #d6beff;
-			}
-
-			.st8 {
-				fill: none;
-				stroke: #000000;
-				stroke-width: 2;
-				stroke-miterlimit: 10;
-			}
-
-			.st9 {
-				fill: none;
-			}
-
-			.st11 {
-				font-size: 18px;
-			}
-
-			.st13 {
-				font-size: 72px;
-			}
-
-			.st14 {
-				font-size: 30px;
-			}
-
-			.st15 {
-				font-size: 25px;
-			}
-
-			.st16 {
-				font-size: 22px;
-			}
-
-			.st17 {
-				font-size: 28px;
-			}
-
-			.st18 {
-				font-size: 26px;
-			}
-
-			.st19 {
-				font-size: 16px;
-			}
-
-			.st20 {
-				font-size: 20px;
-			}
-
-			.st21 {
-				font-size: 24px;
-			}
-
-			.st22 {
-				font-size: 14px;
-			}
-
-			.st23 {
-				font-size: 12px;
-			}
-		</style>
-
-		<g id="地区">
-			<g id="UK">
-				<path id="UK" class="st0" d="M558.5,616.43V706c0,1.66-1.34,3-3,3H476c-1.66,0-3-1.34-3-3V460.49c0-3.15,4.24-4.17,5.67-1.36
-			l79.5,155.94C558.39,615.49,558.5,615.95,558.5,616.43z" />
-				<path id="UK" class="st0" d="M405.33,540h36.92c1.66,0,3,1.34,3,3v36.84
-			c0,1.66-1.34,3-3,3h-14.56c-1.05,0-2.02-0.55-2.56-1.44l-22.36-36.84C401.55,542.56,402.99,540,405.33,540z" />
-			</g>
-			<path id="Ireland" class="st0" d="M349.44,644.26l48.16-99.31c1.04-2.14,4.03-2.28,5.26-0.25l22.26,36.68
+<g id="地区">
+	<g id="UK">
+		<path id="UK" class="st0" d="M558.5,616.43V706c0,1.66-1.34,3-3,3H476c-1.66,0-3-1.34-3-3V460.49c0-3.15,4.24-4.17,5.67-1.36
+			l79.5,155.94C558.39,615.49,558.5,615.95,558.5,616.43z"/>
+		<path id="UK" class="st0" d="M405.33,540h36.92c1.66,0,3,1.34,3,3v36.84
+			c0,1.66-1.34,3-3,3h-14.56c-1.05,0-2.02-0.55-2.56-1.44l-22.36-36.84C401.55,542.56,402.99,540,405.33,540z"/>
+	</g>
+	<path id="Ireland" class="st0" d="M349.44,644.26l48.16-99.31c1.04-2.14,4.03-2.28,5.26-0.25l22.26,36.68
 		c0.54,0.9,1.52,1.44,2.56,1.44h12.85c2.2,0,3.65,2.28,2.72,4.27l-27.94,59.73c-0.49,1.05-1.55,1.73-2.72,1.73h-60.45
-		C349.92,648.57,348.47,646.26,349.44,644.26z" />
-			<path id="Belgium" class="st0" d="M683.5,774.5h-79c-1.66,0-3-1.34-3-3v-63c0-1.66,1.34-3,3-3h79c1.66,0,3,1.34,3,3v63
-		C686.5,773.16,685.16,774.5,683.5,774.5z" />
-			<path id="Netherlands" class="st0" d="M683.5,642.5h-43c-1.66,0-3,1.34-3,3v73c0,1.66,1.34,3,3,3h43c1.66,0,3-1.34,3-3v-73
-		C686.5,643.84,685.16,642.5,683.5,642.5z" />
-			<path id="Spain" class="st0" d="M577.5,1198.5h-221c-1.66,0-3-1.34-3-3v-210c0-1.66,1.34-3,3-3h221c1.66,0,3,1.34,3,3v210
-		C580.5,1197.16,579.16,1198.5,577.5,1198.5z" />
-			<g id="France">
-				<path id="France" class="st0" d="M683.5,982.5h-207c-1.66,0-3-1.34-3-3v-221c0-1.66,1.34-3,3-3h207c1.66,0,3,1.34,3,3v221
-			C686.5,981.16,685.16,982.5,683.5,982.5z" />
-				<path id="France" class="st0" d="M742.5,1043.5h-21c-1.66,0-3-1.34-3-3v-40
-			c0-1.66,1.34-3,3-3h21c1.66,0,3,1.34,3,3v40C745.5,1042.16,744.16,1043.5,742.5,1043.5z" />
-			</g>
-			<path id="Andorra" class="st0" d="M542.5,1001.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
-		C545.5,1000.16,544.16,1001.5,542.5,1001.5z" />
-			<path id="Portugal" class="st0" d="M415.5,1198.5h-59c-1.66,0-3-1.34-3-3v-125c0-1.66,1.34-3,3-3h59c1.66,0,3,1.34,3,3v125
-		C418.5,1197.16,417.16,1198.5,415.5,1198.5z" />
-			<path id="Austria" class="st0" d="M764.5,767.5h152c1.66,0,3,1.34,3,3v104c0,1.66-1.34,3-3,3h-152c-1.66,0-3-1.34-3-3v-104
-		C761.5,768.84,762.84,767.5,764.5,767.5z" />
-			<path id="Germany" class="st0" d="M845.5,842.5h-156c-1.66,0-3-1.34-3-3v-212c0-1.66,1.34-3,3-3h156c1.66,0,3,1.34,3,3v212
-		C848.5,841.16,847.16,842.5,845.5,842.5z" />
-			<path id="Luxembourg" class="st0" d="M707.5,794.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
-		C710.5,793.16,709.16,794.5,707.5,794.5z" />
-			<path id="Switzerland" class="st0" d="M758.5,898.5h-100c-1.66,0-3-1.34-3-3v-50c0-1.66,1.34-3,3-3h100c1.66,0,3,1.34,3,3v50
-		C761.5,897.16,760.16,898.5,758.5,898.5z" />
-			<path id="Slovenia" class="st0" d="M875.14,926.47H822c-1.66,0-3-1.34-3-3V880.5c0-1.66,1.34-3,3-3h90.87
-		c2.58,0,3.96,3.04,2.25,4.98l-37.73,42.97C876.83,926.1,876.01,926.47,875.14,926.47z" />
-			<path id="Croatia" class="st0" d="M928.76,981.41l-50.37-52.96c-1.07-1.12-1.1-2.88-0.08-4.05l40.29-45.89
+		C349.92,648.57,348.47,646.26,349.44,644.26z"/>
+	<path id="Belgium" class="st0" d="M683.5,774.5h-79c-1.66,0-3-1.34-3-3v-63c0-1.66,1.34-3,3-3h79c1.66,0,3,1.34,3,3v63
+		C686.5,773.16,685.16,774.5,683.5,774.5z"/>
+	<path id="Netherlands" class="st0" d="M683.5,642.5h-43c-1.66,0-3,1.34-3,3v73c0,1.66,1.34,3,3,3h43c1.66,0,3-1.34,3-3v-73
+		C686.5,643.84,685.16,642.5,683.5,642.5z"/>
+	<path id="Spain" class="st0" d="M577.5,1198.5h-221c-1.66,0-3-1.34-3-3v-210c0-1.66,1.34-3,3-3h221c1.66,0,3,1.34,3,3v210
+		C580.5,1197.16,579.16,1198.5,577.5,1198.5z"/>
+	<g id="France">
+		<path id="France" class="st0" d="M683.5,982.5h-207c-1.66,0-3-1.34-3-3v-221c0-1.66,1.34-3,3-3h207c1.66,0,3,1.34,3,3v221
+			C686.5,981.16,685.16,982.5,683.5,982.5z"/>
+		<path id="France" class="st0" d="M742.5,1043.5h-21c-1.66,0-3-1.34-3-3v-40
+			c0-1.66,1.34-3,3-3h21c1.66,0,3,1.34,3,3v40C745.5,1042.16,744.16,1043.5,742.5,1043.5z"/>
+	</g>
+	<path id="Andorra" class="st0" d="M542.5,1001.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
+		C545.5,1000.16,544.16,1001.5,542.5,1001.5z"/>
+	<path id="Portugal" class="st0" d="M415.5,1198.5h-59c-1.66,0-3-1.34-3-3v-125c0-1.66,1.34-3,3-3h59c1.66,0,3,1.34,3,3v125
+		C418.5,1197.16,417.16,1198.5,415.5,1198.5z"/>
+	<path id="Austria" class="st0" d="M764.5,767.5h152c1.66,0,3,1.34,3,3v104c0,1.66-1.34,3-3,3h-152c-1.66,0-3-1.34-3-3v-104
+		C761.5,768.84,762.84,767.5,764.5,767.5z"/>
+	<path id="Germany" class="st0" d="M845.5,842.5h-156c-1.66,0-3-1.34-3-3v-212c0-1.66,1.34-3,3-3h156c1.66,0,3,1.34,3,3v212
+		C848.5,841.16,847.16,842.5,845.5,842.5z"/>
+	<path id="Luxembourg" class="st0" d="M707.5,794.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
+		C710.5,793.16,709.16,794.5,707.5,794.5z"/>
+	<path id="Switzerland" class="st0" d="M758.5,898.5h-100c-1.66,0-3-1.34-3-3v-50c0-1.66,1.34-3,3-3h100c1.66,0,3,1.34,3,3v50
+		C761.5,897.16,760.16,898.5,758.5,898.5z"/>
+	<path id="Slovenia" class="st0" d="M875.14,926.47H822c-1.66,0-3-1.34-3-3V880.5c0-1.66,1.34-3,3-3h90.87
+		c2.58,0,3.96,3.04,2.25,4.98l-37.73,42.97C876.83,926.1,876.01,926.47,875.14,926.47z"/>
+	<path id="Croatia" class="st0" d="M928.76,981.41l-50.37-52.96c-1.07-1.12-1.1-2.88-0.08-4.05l40.29-45.89
 		c0.57-0.65,1.39-1.02,2.25-1.02h39.64c1.66,0,3,1.34,3,3v26.91c0,1.66-1.34,3-3,3h-34.46c-1.85,0-3.26,1.66-2.96,3.49l10.81,64.95
-		C934.38,981.77,930.8,983.56,928.76,981.41z" />
-			<path id="Bosnia_and_Herzegovina" class="st0" d="M935.08,985.99l-12-72.09c-0.3-1.83,1.11-3.49,2.96-3.49h34.46c1.66,0,3,1.34,3,3
-		v72.09c0,1.66-1.34,3-3,3h-22.46C936.58,988.5,935.32,987.44,935.08,985.99z" />
-			<g id="Denmark">
-				<path id="Denmark" class="st0" d="M762.5,624.5h-49c-1.66,0-3-1.34-3-3v-102
-			c0-1.66,1.34-3,3-3h49c1.66,0,3,1.34,3,3v102C765.5,623.16,764.16,624.5,762.5,624.5z" />
-				<path id="Denmark" class="st0" d="M805.5,601.5h-20c-1.66,0-3-1.34-3-3v-31c0-1.66,1.34-3,3-3h20c1.66,0,3,1.34,3,3v31
-			C808.5,600.16,807.16,601.5,805.5,601.5z" />
-			</g>
-			<path id="Norway" class="st0" d="M933.5,451.5h-197c-1.66,0-3-1.34-3-3v-373c0-1.66,1.34-3,3-3h197c1.66,0,3,1.34,3,3v373
-		C936.5,450.16,935.16,451.5,933.5,451.5z" />
-			<path id="Sweden" class="st0" d="M933.5,506.5h-103c-1.66,0-3-1.34-3-3v-343c0-1.66,1.34-3,3-3h103c1.66,0,3,1.34,3,3v343
-		C936.5,505.16,935.16,506.5,933.5,506.5z" />
-			<path id="Finland" class="st0" d="M1078.5,373.5h-139c-1.66,0-3-1.34-3-3v-252c0-1.66,1.34-3,3-3h139c1.66,0,3,1.34,3,3v252
-		C1081.5,372.16,1080.16,373.5,1078.5,373.5z" />
-			<path id="Estonia" class="st0" d="M1078.5,469.5h-78c-1.66,0-3-1.34-3-3v-61c0-1.66,1.34-3,3-3h78c1.66,0,3,1.34,3,3v61
-		C1081.5,468.16,1080.16,469.5,1078.5,469.5z" />
-			<path id="Latvia" class="st0" d="M1078.5,469.5h-108c-1.66,0-3,1.34-3,3v48c0,1.66,1.34,3,3,3h108c1.66,0,3-1.34,3-3v-48
-		C1081.5,470.84,1080.16,469.5,1078.5,469.5z" />
-			<g id="Ukraine">
-				<path id="Ukraine" class="st0" d="M1409.5,601.5h-373c-1.66,0-3,1.34-3,3v191c0,1.66,1.34,3,3,3h373c1.66,0,3-1.34,3-3v-191
-			C1412.5,602.84,1411.16,601.5,1409.5,601.5z" />
-				<path id="Ukraine" class="st0" d="M1371.5,807.5h-60c-1.66,0-3,1.34-3,3v36
-			c0,1.66,1.34,3,3,3h60c1.66,0,3-1.34,3-3v-36C1374.5,808.84,1373.16,807.5,1371.5,807.5z" />
-			</g>
-			<path id="Belarus" class="st0" d="M1192.5,523.5h-156c-1.66,0-3,1.34-3,3v137c0,1.66,1.34,3,3,3h156c1.66,0,3-1.34,3-3v-137
-		C1195.5,524.84,1194.16,523.5,1192.5,523.5z" />
-			<path id="Lithuania" class="st0" d="M1061.5,511.5h-91c-1.66,0-3,1.34-3,3v44c0,1.66,1.34,3,3,3h91c1.66,0,3-1.34,3-3v-44
-		C1064.5,512.84,1063.16,511.5,1061.5,511.5z" />
-			<path id="Poland" class="st0" d="M1030.5,749.5h-179c-1.66,0-3-1.34-3-3v-182c0-1.66,1.34-3,3-3h179c1.66,0,3,1.34,3,3v182
-		C1033.5,748.16,1032.16,749.5,1030.5,749.5z" />
-			<path id="Czechia" class="st0" d="M916.5,767.5h-95c-1.66,0-3-1.34-3-3v-50c0-1.66,1.34-3,3-3h95c1.66,0,3,1.34,3,3v50
-		C919.5,766.16,918.16,767.5,916.5,767.5z" />
-			<path id="Slovakia" class="st0" d="M1030.5,749.5h-108c-1.66,0-3,1.34-3,3v30c0,1.66,1.34,3,3,3h108c1.66,0,3-1.34,3-3v-30
-		C1033.5,750.84,1032.16,749.5,1030.5,749.5z" />
-			<path id="Hungary" class="st0" d="M1030.5,877.5h-123c-1.66,0-3-1.34-3-3v-86c0-1.66,1.34-3,3-3h123c1.66,0,3,1.34,3,3v86
-		C1033.5,876.16,1032.16,877.5,1030.5,877.5z" />
-			<path id="Serbia" class="st0" d="M1068.5,1001.5h-102c-1.66,0-3-1.34-3-3v-118c0-1.66,1.34-3,3-3h102c1.66,0,3,1.34,3,3v118
-		C1071.5,1000.16,1070.16,1001.5,1068.5,1001.5z" />
-			<path id="Montenegro" class="st0" d="M994.5,1001.5h-40c-1.66,0-3-1.34-3-3v-26c0-1.66,1.34-3,3-3h40c1.66,0,3,1.34,3,3v26
-		C997.5,1000.16,996.16,1001.5,994.5,1001.5z" />
-			<g id="Greece">
-				<path id="Greece" class="st0" d="M1036.5,1001.5h134.59c1.66,0,3,1.34,3,3v14.36c0,1.02-0.52,1.97-1.38,2.52l-78.41,50.32
+		C934.38,981.77,930.8,983.56,928.76,981.41z"/>
+	<path id="Bosnia_and_Herzegovina" class="st0" d="M935.08,985.99l-12-72.09c-0.3-1.83,1.11-3.49,2.96-3.49h34.46c1.66,0,3,1.34,3,3
+		v72.09c0,1.66-1.34,3-3,3h-22.46C936.58,988.5,935.32,987.44,935.08,985.99z"/>
+	<g id="Denmark">
+		<path id="Denmark" class="st0" d="M762.5,624.5h-49c-1.66,0-3-1.34-3-3v-102
+			c0-1.66,1.34-3,3-3h49c1.66,0,3,1.34,3,3v102C765.5,623.16,764.16,624.5,762.5,624.5z"/>
+		<path id="Denmark" class="st0" d="M805.5,601.5h-20c-1.66,0-3-1.34-3-3v-31c0-1.66,1.34-3,3-3h20c1.66,0,3,1.34,3,3v31
+			C808.5,600.16,807.16,601.5,805.5,601.5z"/>
+	</g>
+	<path id="Norway" class="st0" d="M933.5,451.5h-197c-1.66,0-3-1.34-3-3v-373c0-1.66,1.34-3,3-3h197c1.66,0,3,1.34,3,3v373
+		C936.5,450.16,935.16,451.5,933.5,451.5z"/>
+	<path id="Sweden" class="st0" d="M933.5,506.5h-103c-1.66,0-3-1.34-3-3v-343c0-1.66,1.34-3,3-3h103c1.66,0,3,1.34,3,3v343
+		C936.5,505.16,935.16,506.5,933.5,506.5z"/>
+	<path id="Finland" class="st0" d="M1078.5,373.5h-139c-1.66,0-3-1.34-3-3v-252c0-1.66,1.34-3,3-3h139c1.66,0,3,1.34,3,3v252
+		C1081.5,372.16,1080.16,373.5,1078.5,373.5z"/>
+	<path id="Estonia" class="st0" d="M1078.5,469.5h-78c-1.66,0-3-1.34-3-3v-61c0-1.66,1.34-3,3-3h78c1.66,0,3,1.34,3,3v61
+		C1081.5,468.16,1080.16,469.5,1078.5,469.5z"/>
+	<path id="Latvia" class="st0" d="M1078.5,469.5h-108c-1.66,0-3,1.34-3,3v48c0,1.66,1.34,3,3,3h108c1.66,0,3-1.34,3-3v-48
+		C1081.5,470.84,1080.16,469.5,1078.5,469.5z"/>
+	<g id="Ukraine">
+		<path id="Ukraine" class="st0" d="M1409.5,601.5h-373c-1.66,0-3,1.34-3,3v191c0,1.66,1.34,3,3,3h373c1.66,0,3-1.34,3-3v-191
+			C1412.5,602.84,1411.16,601.5,1409.5,601.5z"/>
+		<path id="Ukraine" class="st0" d="M1371.5,807.5h-60c-1.66,0-3,1.34-3,3v36
+			c0,1.66,1.34,3,3,3h60c1.66,0,3-1.34,3-3v-36C1374.5,808.84,1373.16,807.5,1371.5,807.5z"/>
+	</g>
+	<path id="Belarus" class="st0" d="M1192.5,523.5h-156c-1.66,0-3,1.34-3,3v137c0,1.66,1.34,3,3,3h156c1.66,0,3-1.34,3-3v-137
+		C1195.5,524.84,1194.16,523.5,1192.5,523.5z"/>
+	<path id="Lithuania" class="st0" d="M1061.5,511.5h-91c-1.66,0-3,1.34-3,3v44c0,1.66,1.34,3,3,3h91c1.66,0,3-1.34,3-3v-44
+		C1064.5,512.84,1063.16,511.5,1061.5,511.5z"/>
+	<path id="Poland" class="st0" d="M1030.5,749.5h-179c-1.66,0-3-1.34-3-3v-182c0-1.66,1.34-3,3-3h179c1.66,0,3,1.34,3,3v182
+		C1033.5,748.16,1032.16,749.5,1030.5,749.5z"/>
+	<path id="Czechia" class="st0" d="M916.5,767.5h-95c-1.66,0-3-1.34-3-3v-50c0-1.66,1.34-3,3-3h95c1.66,0,3,1.34,3,3v50
+		C919.5,766.16,918.16,767.5,916.5,767.5z"/>
+	<path id="Slovakia" class="st0" d="M1030.5,749.5h-108c-1.66,0-3,1.34-3,3v30c0,1.66,1.34,3,3,3h108c1.66,0,3-1.34,3-3v-30
+		C1033.5,750.84,1032.16,749.5,1030.5,749.5z"/>
+	<path id="Hungary" class="st0" d="M1030.5,877.5h-123c-1.66,0-3-1.34-3-3v-86c0-1.66,1.34-3,3-3h123c1.66,0,3,1.34,3,3v86
+		C1033.5,876.16,1032.16,877.5,1030.5,877.5z"/>
+	<path id="Serbia" class="st0" d="M1068.5,1001.5h-102c-1.66,0-3-1.34-3-3v-118c0-1.66,1.34-3,3-3h102c1.66,0,3,1.34,3,3v118
+		C1071.5,1000.16,1070.16,1001.5,1068.5,1001.5z"/>
+	<path id="Montenegro" class="st0" d="M994.5,1001.5h-40c-1.66,0-3-1.34-3-3v-26c0-1.66,1.34-3,3-3h40c1.66,0,3,1.34,3,3v26
+		C997.5,1000.16,996.16,1001.5,994.5,1001.5z"/>
+	<g id="Greece">
+		<path id="Greece" class="st0" d="M1036.5,1001.5h134.59c1.66,0,3,1.34,3,3v14.36c0,1.02-0.52,1.97-1.38,2.52l-78.41,50.32
 			c-1.49,0.96-1.83,3-0.73,4.39l46.38,58.38c1,1.26,0.83,3.09-0.39,4.14l-41.72,35.87c-1.28,1.1-3.21,0.93-4.28-0.38l-59.38-72.78
-			c-0.44-0.54-0.68-1.21-0.68-1.9v-59.94v-35C1033.5,1002.84,1034.84,1001.5,1036.5,1001.5z" />
-				<path id="Greece" class="st0" d="M1219.5,1222.5h-77c-1.66,0-3-1.34-3-3v-8
-			c0-1.66,1.34-3,3-3h77c1.66,0,3,1.34,3,3v8C1222.5,1221.16,1221.16,1222.5,1219.5,1222.5z" />
-			</g>
-			<path id="North_Macedonia" class="st0" d="M1036.5,1039.5h32c1.66,0,3-1.34,3-3v-51c0-1.66-1.34-3-3-3h-32c-1.66,0-3,1.34-3,3v51
-		C1033.5,1038.16,1034.84,1039.5,1036.5,1039.5z" />
-			<path id="Albania" class="st0" d="M1030.5,1001.5h-40c-1.66,0-3,1.34-3,3v70c0,1.66,1.34,3,3,3h40c1.66,0,3-1.34,3-3v-70
-		C1033.5,1002.84,1032.16,1001.5,1030.5,1001.5z" />
-			<g id="Italy">
-				<path id="Italy" class="st0" d="M689.5,898.5h69c1.66,0,3-1.34,3-3v-15c0-1.66,1.34-3,3-3H816c1.66,0,3,1.34,3,3v44.89
+			c-0.44-0.54-0.68-1.21-0.68-1.9v-59.94v-35C1033.5,1002.84,1034.84,1001.5,1036.5,1001.5z"/>
+		<path id="Greece" class="st0" d="M1219.5,1222.5h-77c-1.66,0-3-1.34-3-3v-8
+			c0-1.66,1.34-3,3-3h77c1.66,0,3,1.34,3,3v8C1222.5,1221.16,1221.16,1222.5,1219.5,1222.5z"/>
+	</g>
+	<path id="North_Macedonia" class="st0" d="M1036.5,1039.5h32c1.66,0,3-1.34,3-3v-51c0-1.66-1.34-3-3-3h-32c-1.66,0-3,1.34-3,3v51
+		C1033.5,1038.16,1034.84,1039.5,1036.5,1039.5z"/>
+	<path id="Albania" class="st0" d="M1030.5,1001.5h-40c-1.66,0-3,1.34-3,3v70c0,1.66,1.34,3,3,3h40c1.66,0,3-1.34,3-3v-70
+		C1033.5,1002.84,1032.16,1001.5,1030.5,1001.5z"/>
+	<g id="Italy">
+		<path id="Italy" class="st0" d="M689.5,898.5h69c1.66,0,3-1.34,3-3v-15c0-1.66,1.34-3,3-3H816c1.66,0,3,1.34,3,3v44.89
 			c0,0.7,0.24,1.38,0.69,1.91l129.75,156.71c1.11,1.34,0.85,3.35-0.58,4.36l-120.87,85.68c-2.39,1.69-1.19,5.45,1.73,5.45h86.45
 			c2.53,0,3.92-2.94,2.32-4.9l-156.1-191c-0.57-0.7-1.42-1.1-2.32-1.1H689.5c-1.66,0-3-1.34-3-3v-78
-			C686.5,899.84,687.84,898.5,689.5,898.5z" />
-				<path id="Italy" class="st0" d="M746.5,1132.5h-35c-1.66,0-3-1.34-3-3v-63
-			c0-1.66,1.34-3,3-3h35c1.66,0,3,1.34,3,3v63C749.5,1131.16,748.16,1132.5,746.5,1132.5z" />
-			</g>
-			<path id="Bulgaria" class="st0" d="M1223.5,1001.5h-149c-1.66,0-3-1.34-3-3v-73c0-1.66,1.34-3,3-3h149c1.66,0,3,1.34,3,3v73
-		C1226.5,1000.16,1225.16,1001.5,1223.5,1001.5z" />
-			<path id="Romania" class="st0" d="M1223.5,922.5h-187c-1.66,0-3-1.34-3-3v-118c0-1.66,1.34-3,3-3h187c1.66,0,3,1.34,3,3v118
-		C1226.5,921.16,1225.16,922.5,1223.5,922.5z" />
-			<path id="Moldova" class="st0" d="M1223.5,845.5h-66c-1.66,0-3-1.34-3-3v-69c0-1.66,1.34-3,3-3h66c1.66,0,3,1.34,3,3v69
-		C1226.5,844.16,1225.16,845.5,1223.5,845.5z" />
-			<path id="Liechtenstein" class="st0" d="M779.5,877.5h-42c-1.66,0-3-1.34-3-3v-29c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v29
-		C782.5,876.16,781.16,877.5,779.5,877.5z" />
-			<path id="Turkey" class="st0" d="M1174.09,1004.5v54.4c0,2.84,3.58,4.09,5.35,1.87l46.41-58.44c0.42-0.53,0.65-1.19,0.65-1.87
+			C686.5,899.84,687.84,898.5,689.5,898.5z"/>
+		<path id="Italy" class="st0" d="M746.5,1132.5h-35c-1.66,0-3-1.34-3-3v-63
+			c0-1.66,1.34-3,3-3h35c1.66,0,3,1.34,3,3v63C749.5,1131.16,748.16,1132.5,746.5,1132.5z"/>
+	</g>
+	<path id="Bulgaria" class="st0" d="M1223.5,1001.5h-149c-1.66,0-3-1.34-3-3v-73c0-1.66,1.34-3,3-3h149c1.66,0,3,1.34,3,3v73
+		C1226.5,1000.16,1225.16,1001.5,1223.5,1001.5z"/>
+	<path id="Romania" class="st0" d="M1223.5,922.5h-187c-1.66,0-3-1.34-3-3v-118c0-1.66,1.34-3,3-3h187c1.66,0,3,1.34,3,3v118
+		C1226.5,921.16,1225.16,922.5,1223.5,922.5z"/>
+	<path id="Moldova" class="st0" d="M1223.5,845.5h-66c-1.66,0-3-1.34-3-3v-69c0-1.66,1.34-3,3-3h66c1.66,0,3,1.34,3,3v69
+		C1226.5,844.16,1225.16,845.5,1223.5,845.5z"/>
+	<path id="Liechtenstein" class="st0" d="M779.5,877.5h-42c-1.66,0-3-1.34-3-3v-29c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v29
+		C782.5,876.16,781.16,877.5,779.5,877.5z"/>
+	<path id="Turkey" class="st0" d="M1174.09,1004.5v54.4c0,2.84,3.58,4.09,5.35,1.87l46.41-58.44c0.42-0.53,0.65-1.19,0.65-1.87
 		V955.5c0-1.66,1.34-3,3-3h331c1.66,0,3,1.34,3,3v204.01c0,1.65-1.34,3-2.99,3l-331,0.67c-1.66,0-3.01-1.34-3.01-3V1004.5
-		c0-1.66-1.34-3-3-3h-46.41C1175.43,1001.5,1174.09,1002.84,1174.09,1004.5z" />
-			<path id="Cyprus" class="st0" d="M1384.23,1220.5h-26.73c-1.66,0-3-1.34-3-3v-8.08c0-1.14,0.65-2.19,1.68-2.69l50.15-24.61
-		c2.8-1.37,5.58,1.91,3.76,4.44l-23.43,32.69C1386.1,1220.03,1385.2,1220.5,1384.23,1220.5z" />
-			<path id="Vatican_City" class="st0" d="M832.5,1058.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
-		C835.5,1057.16,834.16,1058.5,832.5,1058.5z" />
-			<path id="San_Marino" class="st0" d="M869.5,992.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
-		C872.5,991.16,871.16,992.5,869.5,992.5z" />
-			<path id="Iceland" class="st0" d="M399.5,269.5h-108c-1.66,0-3-1.34-3-3v-66c0-1.66,1.34-3,3-3h108c1.66,0,3,1.34,3,3v66
-		C402.5,268.16,401.16,269.5,399.5,269.5z" />
-			<g id="Russia" fill="#ffffff">
-				<path id="Russia" class="st0" d="M1195.5,598.5v-72c0-1.66-1.34-3-3-3h-108c-1.66,0-3-1.34-3-3v-402c0-1.66-1.34-3-3-3h-139
+		c0-1.66-1.34-3-3-3h-46.41C1175.43,1001.5,1174.09,1002.84,1174.09,1004.5z"/>
+	<path id="Cyprus" class="st0" d="M1384.23,1220.5h-26.73c-1.66,0-3-1.34-3-3v-8.08c0-1.14,0.65-2.19,1.68-2.69l50.15-24.61
+		c2.8-1.37,5.58,1.91,3.76,4.44l-23.43,32.69C1386.1,1220.03,1385.2,1220.5,1384.23,1220.5z"/>
+	<path id="Vatican_City" class="st0" d="M832.5,1058.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
+		C835.5,1057.16,834.16,1058.5,832.5,1058.5z"/>
+	<path id="San_Marino" class="st0" d="M869.5,992.5h-42c-1.66,0-3-1.34-3-3v-33c0-1.66,1.34-3,3-3h42c1.66,0,3,1.34,3,3v33
+		C872.5,991.16,871.16,992.5,869.5,992.5z"/>
+	<path id="Iceland" class="st0" d="M399.5,269.5h-108c-1.66,0-3-1.34-3-3v-66c0-1.66,1.34-3,3-3h108c1.66,0,3,1.34,3,3v66
+		C402.5,268.16,401.16,269.5,399.5,269.5z"/>
+	<g id="Russia" fill="#ffffff">
+		<path id="Russia" class="st0" d="M1195.5,598.5v-72c0-1.66-1.34-3-3-3h-108c-1.66,0-3-1.34-3-3v-402c0-1.66-1.34-3-3-3h-139
 			c-1.66,0-3-1.34-3-3V38.29c0-1.66,1.36-3.01,3.02-3l621,4.19c1.65,0.01,2.98,1.35,2.98,3V857.5c0,1.66-1.34,3-3,3h-145
-			c-1.66,0-3-1.34-3-3v-253c0-1.66-1.34-3-3-3h-211C1196.84,601.5,1195.5,600.16,1195.5,598.5z" />
-				<path id="Russia" class="st0" d="M1006.5,582.5h-46c-1.66,0-3-1.34-3-3v-26
-			c0-1.66,1.34-3,3-3h46c1.66,0,3,1.34,3,3v26C1009.5,581.16,1008.16,582.5,1006.5,582.5z" />
-			</g>
-			<path id="Georgia" class="st0" d="M1498.5,952.5h-83c-1.66,0-3-1.34-3-3v-86c0-1.66,1.34-3,3-3h83c1.66,0,3,1.34,3,3v86
-		C1501.5,951.16,1500.16,952.5,1498.5,952.5z" />
-			<path id="Azerbaijan" class="st0" d="M1504.5,952.5h56c1.66,0,3-1.34,3-3v-86c0-1.66-1.34-3-3-3h-56c-1.66,0-3,1.34-3,3v86
-		C1501.5,951.16,1502.84,952.5,1504.5,952.5z" />
-			<path id="Armenia" class="st0" d="M1514.5,952.5h-67c-1.66,0-3-1.34-3-3v-40c0-1.66,1.34-3,3-3h67c1.66,0,3,1.34,3,3v40
-		C1517.5,951.16,1516.16,952.5,1514.5,952.5z" />
-			<path id="Monaco" class="st0" d="M666.4,998.9h-42c-1.7,0-3-1.3-3-3v-33c0-1.7,1.3-3,3-3h42c1.7,0,3,1.3,3,3v33
-		C669.4,997.5,668.1,998.9,666.4,998.9z" />
-			<path id="Malta" class="st0" d="M883.8,1225.7l-9.8,3.7c-1,0.4-2.1,0.2-2.9-0.4l-13.9-10.7c-2.6-2-0.5-6.2,2.7-5.3l23.7,7
-		C886.4,1220.8,886.5,1224.6,883.8,1225.7z" />
-			<path id="Kosovo" class="st0" d="M1000.5,969.5h30c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-30c-1.7,0-3-1.3-3-3v-26
-		C997.5,970.8,998.8,969.5,1000.5,969.5z" />
-		</g>
-		<g id="Layer_4">
-			<path class="st6" d="M56.9,933.1H273c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H56.9c-1.7,0-3-1.3-3-3v-26
-		C53.9,934.5,55.3,933.1,56.9,933.1z" />
-			<path class="st2" d="M56.93,870.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,871.37,55.27,870.03,56.93,870.03z" />
-			<path class="st3" d="M56.93,742.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,743.37,55.27,742.03,56.93,742.03z" />
-			<path class="st4" d="M56.93,838.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,839.37,55.27,838.03,56.93,838.03z" />
-			<path class="st5" d="M56.93,774.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,775.37,55.27,774.03,56.93,774.03z" />
-			<path class="st24" d="M56.93,902.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,903.37,55.27,902.03,56.93,902.03z" />
-			<path class="st7" d="M56.93,806.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
-		C53.93,807.37,55.27,806.03,56.93,806.03z" />
-			<path class="st8" d="M56.9,742H273c1.7,0,3,1.5,3,3.5V962c0,2-1.3,3.5-3,3.5H56.9c-1.7,0-3-1.5-3-3.5V745.5
-		C53.9,743.6,55.3,742,56.9,742z" />
-			<path class="st9" d="M64.4,749.6h90.2c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H64.4c-1.7,0-3-1.3-3-3v-10.6
-		C61.4,751,62.8,749.6,64.4,749.6z" />
-			<text transform="matrix(1 0 0 1 61.4438 764.5048)" class="st10 st11">{{ $t("message.data_level_5") }}</text>
-			<path class="st9" d="M65.03,781.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.03c-1.66,0-3-1.34-3-3v-10.6
-		C62.03,783.17,63.37,781.83,65.03,781.83z" />
-			<text transform="matrix(1 0 0 1 61.9937 796.6229)" class="st10 st11">{{ $t("message.data_level_4") }}</text>
-			<path class="st9" d="M65.43,813.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
-		C62.43,815.17,63.77,813.83,65.43,813.83z" />
-			<text transform="matrix(1 0 0 1 62.4503 828.6221)" class="st10 st11">{{ $t("message.data_level_3") }}</text>
-			<path class="st9" d="M64.43,845.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H64.43c-1.66,0-3-1.34-3-3v-10.6
-		C61.43,847.17,62.77,845.83,64.43,845.83z" />
-			<text transform="matrix(1 0 0 1 62.4503 860.6222)" class="st10 st11">{{ $t("message.data_level_2") }}</text>
-			<path class="st9" d="M65.43,877.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
-		C62.43,879.17,63.77,877.83,65.43,877.83z" />
-			<text transform="matrix(1 0 0 1 62.4503 892.6222)" class="st10 st11">{{ $t("message.data_level_1") }}</text>
-			<path class="st9" d="M65.43,909.83h165.5c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
-		C62.43,911.17,63.77,909.83,65.43,909.83z" />
-			<text transform="matrix(1 0 0 1 62.4503 924.6222)" class="st10 st11">{{ $t("message.data_level_0_alt")
-				}}</text>
-			<path class="st9" d="M65.4,909.8h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H65.4c-1.7,0-3-1.3-3-3v-10.6
-		C62.4,911.2,63.8,909.8,65.4,909.8z" />
-			<text transform="matrix(1 0 0 1 62.8503 954.9222)" class="st10 st11">{{ $t("message.data_level_0") }}</text>
-			<path class="st9" d="M209.33,750.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C206.33,751.57,207.67,750.23,209.33,750.23z" />
-			<text transform="matrix(1 0 0 1 228.9265 765.0421)" class="st10 st11">5 {{ $tc("message.pt", 5) }}</text>
-			<path class="st9" d="M209.33,781.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C206.33,782.57,207.67,781.23,209.33,781.23z" />
-			<text transform="matrix(1 0 0 1 228.954 796.0421)" class="st10 st11">4 {{ $tc("message.pt", 4) }}</text>
-			<path class="st9" d="M210.33,813.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C207.33,814.57,208.67,813.23,210.33,813.23z" />
-			<text transform="matrix(1 0 0 1 228.954 828.0421)" class="st10 st11">3 {{ $tc("message.pt", 3) }}</text>
-			<path class="st9" d="M210.33,845.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C207.33,846.57,208.67,845.23,210.33,845.23z" />
-			<text transform="matrix(1 0 0 1 228.954 860.0421)" class="st10 st11">2 {{ $tc("message.pt", 2) }}</text>
-			<path class="st9" d="M210.33,877.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C207.33,878.57,208.67,877.23,210.33,877.23z" />
-			<text transform="matrix(1 0 0 1 228.954 892.0421)" class="st10 st11">1 {{ $tc("message.pt", 1) }}</text>
-			<path class="st9" d="M210.33,909.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C207.33,910.57,208.67,909.23,210.33,909.23z" />
-			<text transform="matrix(1 0 0 1 228.954 924.0421)" class="st10 st11">0 {{ $tc("message.pt", 0) }}</text>
-			<path class="st9" d="M210.33,909.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
-		C207.33,910.57,208.67,909.23,210.33,954.23z" />
-			<text transform="matrix(1 0 0 1 228.954 954.0421)" class="st10 st11">0 {{ $tc("message.pt", 0) }}</text>
-		</g>
-		<g id="Texts">
-			<rect x="438.8" y="618" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 494.0555 654.0649)" class="st12 st14">UK</text>
-			<rect x="276.5" y="637.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 308.4437 672.0728)" class="st12 st15">Ireland</text>
-			<rect x="503" y="837.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 529.1259 873.9949)" class="st12 st14">France</text>
-			<rect x="419.6" y="1063.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 454.5198 1099.9177)" class="st12 st14">Spain</text>
-			<rect x="353.7" y="1075.1" class="st9" width="65.7" height="114.8" />
-			<text transform="matrix(1 0 0 1 364.4144 1127.7808)">
-				<tspan x="0" y="0" class="st12 st16">Por</tspan>
-				<tspan x="37.5" y="0" class="st12 st16">-</tspan>
-				<tspan x="-6.9" y="26.4" class="st12 st16">tugal</tspan>
-			</text>
-			<rect x="690.5" y="642" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 703.3309 677.2939)" class="st12 st17">Germany</text>
-			<rect x="864" y="624.1" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 888.7343 660.1151)" class="st12 st14">Poland</text>
-			<rect x="1139.5" y="681" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1156.8075 717.0649)" class="st12 st14">Ukraine</text>
-			<rect x="1041.5" y="567" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1069.0262 601.5)" class="st12 st18">Belarus</text>
-			<rect x="747.5" y="518.8" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 773.0126 551.7388)" class="st12 st16">Denmark</text>
-			<rect x="681.5" y="921" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 725.0062 957.0649)" class="st12 st14">Italy</text>
-			<rect x="567" y="715.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 606.6288 746.939)" class="st12 st11">Belgium</text>
-			<rect x="552" y="600" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 575.0066 630.668)" class="st12 st11">Netherlands</text>
-			<rect x="791.4" y="715.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 824.5345 748.481)" class="st12 st16">Czechia</text>
-			<rect x="890.5" y="807.3" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 910.5741 841.8453)" class="st12 st18">Hungary</text>
-			<rect x="1053" y="846" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1067.6151 881.2939)" class="st12 st17">Romania</text>
-			<rect x="1318.4" y="1034" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1341.4017 1070.0649)" class="st12 st14">Turkey</text>
-			<rect x="1044.5" y="1165.4" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1072.6366 1200.6735)" class="st12 st17">Greece</text>
-			<rect x="1072" y="938.4" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1089.8212 973.6489)" class="st12 st17">Bulgaria</text>
-			<rect x="767.5" y="835.2" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 795.9911 869.6782)" class="st12 st18">Austria</text>
-			<rect x="899.5" y="742.3" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 929.6156 775.3109)" class="st12 st16">Slovakia</text>
-			<rect x="659.8" y="850.5" class="st9" width="78.2" height="49" />
-			<text transform="matrix(1 0 0 1 674.2625 865.7051)">
-				<tspan x="0" y="0" class="st12 st20">Swit</tspan>
-				<tspan x="43.3" y="0" class="st12 st20">-</tspan>
-				<tspan x="-14" y="24" class="st12 st20">zerland</tspan>
-			</text>
-			<rect x="963.5" y="411.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1002.702 443.71)" class="st12 st20">Estonia</text>
-			<rect x="945.7" y="465.8" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 985.6877 499.527)" class="st12 st21">Latvia</text>
-			<rect x="939" y="510.3" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 972.951 541.7158)" class="st12 st11">Lithuania</text>
-			<rect x="1159.5" y="783.5" class="st9" width="62" height="49" />
-			<text transform="matrix(1 0 0 1 1164.4257 802.8521)">
-				<tspan x="0" y="0" class="st12 st21">Mol</tspan>
-				<tspan x="44.9" y="0" class="st12 st21">-</tspan>
-				<tspan x="-3.7" y="28.8" class="st12 st21">dova</tspan>
-			</text>
-			<rect x="940.5" y="916.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 976.0624 951.0073)" class="st12 st18">Serbia</text>
-			<rect x="780.5" y="875" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 836.1132 908.7471)" class="st12 st21">Slo.</text>
-			<rect x="941.2" y="1066" class="st9" width="92.5" height="49" />
-			<text transform="matrix(1 0 0 1 952.5634 1097.439)" class="st12 st11">Albania</text>
-			<rect x="856.1" y="873.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 907.0862 903.827)" class="st12 st22">Croatia</text>
-			<rect x="867.7" y="909.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 929.0422 940.9233)" class="st12 st11">BiH</text>
-			<rect x="897.6" y="962.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 955.8191 994.2939)" class="st12 st11">MtN</text>
-			<rect x="975.5" y="991.2" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1036.5756 1021.1392)" class="st12 st22">Mac.</text>
-			<rect x="714.5" y="1045.6" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 755.8944 1076.2886)" class="st12 st19">Vatican</text>
-			<rect x="819.2" y="949.1" class="st9" width="58.6" height="49" />
-			<text transform="matrix(1 0 0 1 837.6044 971.0742)">
-				<tspan x="0" y="0" class="st12 st23">San </tspan>
-				<tspan x="-10.5" y="14.4" class="st12 st23">Marino</tspan>
-			</text>
-			<rect x="681.5" y="803.4" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 728.494 834.8488)" class="st12 st11">Liecht.</text>
-			<rect x="609.5" y="751.2" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 667.8143 782.6459)" class="st12 st11">Lux.</text>
-			<rect x="475" y="924.7" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 514.323 956.092)" class="st12 st11">Andorra</text>
-			<rect x="838.9" y="1203.1" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 890.5501 1234.5837)" class="st12 st11">Malta</text>
-			<rect x="1367.5" y="1174" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1411.787 1205.439)" class="st12 st11">Cyprus</text>
-			<rect x="560.5" y="985.1" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 601.8427 1016.5757)" class="st12 st11">Monaco</text>
-			<rect x="1380" y="858.6" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1421.0217 890.0211)" class="st12 st11">Georgia</text>
-			<rect x="1460.5" y="868.3" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1514.0117 899.777)" class="st12 st11">Azer.</text>
-			<rect x="1404" y="906.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1450.785 936.3584)" class="st12 st22">Armenia</text>
-			<rect x="288.9" y="214" class="st9" width="113.1" height="39" />
-			<text transform="matrix(1 0 0 1 293.9506 244.2939)" class="st12 st17">Iceland</text>
-			<rect x="758.5" y="91" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 777.0673 127.0649)" class="st12 st14">Norway</text>
-			<rect x="805" y="307.5" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 834.8964 341.252)" class="st12 st21">Sweden</text>
-			<rect x="933.5" y="209" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 953.6713 245.0649)" class="st12 st14">Finland</text>
-			<rect x="1256.7" y="279.4" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1282.8127 315.4531)" class="st12 st14">Russia</text>
-			<rect x="938.5" y="962.9" class="st9" width="154" height="49" />
-			<text transform="matrix(1 0 0 1 1000.8038 992.8357)" class="st12 st22">Kos.</text>
-		</g>
-		<!-- <text transform="matrix(1 0 0 1 379.8955 62.208)" class="st10 st15">US Level 0</text> -->
-		<text id="Total" x="54" y="392">Europe Level 0</text>
-	</svg>
+			c-1.66,0-3-1.34-3-3v-253c0-1.66-1.34-3-3-3h-211C1196.84,601.5,1195.5,600.16,1195.5,598.5z"/>
+		<path id="Russia" class="st0" d="M1006.5,582.5h-46c-1.66,0-3-1.34-3-3v-26
+			c0-1.66,1.34-3,3-3h46c1.66,0,3,1.34,3,3v26C1009.5,581.16,1008.16,582.5,1006.5,582.5z"/>
+	</g>
+	<path id="Georgia" class="st0" d="M1498.5,952.5h-83c-1.66,0-3-1.34-3-3v-86c0-1.66,1.34-3,3-3h83c1.66,0,3,1.34,3,3v86
+		C1501.5,951.16,1500.16,952.5,1498.5,952.5z"/>
+	<path id="Azerbaijan" class="st0" d="M1504.5,952.5h56c1.66,0,3-1.34,3-3v-86c0-1.66-1.34-3-3-3h-56c-1.66,0-3,1.34-3,3v86
+		C1501.5,951.16,1502.84,952.5,1504.5,952.5z"/>
+	<path id="Armenia" class="st0" d="M1514.5,952.5h-67c-1.66,0-3-1.34-3-3v-40c0-1.66,1.34-3,3-3h67c1.66,0,3,1.34,3,3v40
+		C1517.5,951.16,1516.16,952.5,1514.5,952.5z"/>
+	<path id="Monaco" class="st0" d="M666.4,998.9h-42c-1.7,0-3-1.3-3-3v-33c0-1.7,1.3-3,3-3h42c1.7,0,3,1.3,3,3v33
+		C669.4,997.5,668.1,998.9,666.4,998.9z"/>
+	<path id="Malta" class="st0" d="M883.8,1225.7l-9.8,3.7c-1,0.4-2.1,0.2-2.9-0.4l-13.9-10.7c-2.6-2-0.5-6.2,2.7-5.3l23.7,7
+		C886.4,1220.8,886.5,1224.6,883.8,1225.7z"/>
+</g>
+<g id="Layer_4">
+	<path class="st6" d="M56.9,933.1H273c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3H56.9c-1.7,0-3-1.3-3-3v-26
+		C53.9,934.5,55.3,933.1,56.9,933.1z"/>
+	<path class="st2" d="M56.93,870.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,871.37,55.27,870.03,56.93,870.03z"/>
+	<path class="st3" d="M56.93,742.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,743.37,55.27,742.03,56.93,742.03z"/>
+	<path class="st4" d="M56.93,838.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,839.37,55.27,838.03,56.93,838.03z"/>
+	<path class="st5" d="M56.93,774.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,775.37,55.27,774.03,56.93,774.03z"/>
+	<path class="st24" d="M56.93,902.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,903.37,55.27,902.03,56.93,902.03z"/>
+	<path class="st7" d="M56.93,806.03h216.1c1.66,0,3,1.34,3,3v26c0,1.66-1.34,3-3,3H56.93c-1.66,0-3-1.34-3-3v-26
+		C53.93,807.37,55.27,806.03,56.93,806.03z"/>
+	<path class="st8" d="M56.9,742H273c1.7,0,3,1.5,3,3.5V962c0,2-1.3,3.5-3,3.5H56.9c-1.7,0-3-1.5-3-3.5V745.5
+		C53.9,743.6,55.3,742,56.9,742z"/>
+	<path class="st9" d="M64.4,749.6h90.2c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H64.4c-1.7,0-3-1.3-3-3v-10.6
+		C61.4,751,62.8,749.6,64.4,749.6z"/>
+	<text transform="matrix(1 0 0 1 61.4438 764.5048)" class="st10 st11">{{ $t("message.data_level_5") }}</text>
+	<path class="st9" d="M65.03,781.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.03c-1.66,0-3-1.34-3-3v-10.6
+		C62.03,783.17,63.37,781.83,65.03,781.83z"/>
+	<text transform="matrix(1 0 0 1 61.9937 796.6229)" class="st10 st11">{{ $t("message.data_level_4") }}</text>
+	<path class="st9" d="M65.43,813.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
+		C62.43,815.17,63.77,813.83,65.43,813.83z"/>
+	<text transform="matrix(1 0 0 1 62.4503 828.6221)" class="st10 st11">{{ $t("message.data_level_3") }}</text>
+	<path class="st9" d="M64.43,845.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H64.43c-1.66,0-3-1.34-3-3v-10.6
+		C61.43,847.17,62.77,845.83,64.43,845.83z"/>
+	<text transform="matrix(1 0 0 1 62.4503 860.6222)" class="st10 st11">{{ $t("message.data_level_2") }}</text>
+	<path class="st9" d="M65.43,877.83h117.9c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
+		C62.43,879.17,63.77,877.83,65.43,877.83z"/>
+	<text transform="matrix(1 0 0 1 62.4503 892.6222)" class="st10 st11">{{ $t("message.data_level_1") }}</text>
+	<path class="st9" d="M65.43,909.83h165.5c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3H65.43c-1.66,0-3-1.34-3-3v-10.6
+		C62.43,911.17,63.77,909.83,65.43,909.83z"/>
+	<text transform="matrix(1 0 0 1 62.4503 924.6222)" class="st10 st11">{{ $t("message.data_level_0_alt") }}</text>
+	<path class="st9" d="M65.4,909.8h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3H65.4c-1.7,0-3-1.3-3-3v-10.6
+		C62.4,911.2,63.8,909.8,65.4,909.8z"/>
+	<text transform="matrix(1 0 0 1 62.8503 954.9222)" class="st10 st11">{{ $t("message.data_level_0") }}</text>
+	<path class="st9" d="M209.33,750.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C206.33,751.57,207.67,750.23,209.33,750.23z"/>
+	<text transform="matrix(1 0 0 1 228.9265 765.0421)" class="st10 st11">5 {{ $tc("message.pt", 5) }}</text>
+	<path class="st9" d="M209.33,781.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C206.33,782.57,207.67,781.23,209.33,781.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 796.0421)" class="st10 st11">4 {{ $tc("message.pt", 4) }}</text>
+	<path class="st9" d="M210.33,813.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C207.33,814.57,208.67,813.23,210.33,813.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 828.0421)" class="st10 st11">3 {{ $tc("message.pt", 3) }}</text>
+	<path class="st9" d="M210.33,845.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C207.33,846.57,208.67,845.23,210.33,845.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 860.0421)" class="st10 st11">2 {{ $tc("message.pt", 2) }}</text>
+	<path class="st9" d="M210.33,877.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C207.33,878.57,208.67,877.23,210.33,877.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 892.0421)" class="st10 st11">1 {{ $tc("message.pt", 1) }}</text>
+	<path class="st9" d="M210.33,909.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C207.33,910.57,208.67,909.23,210.33,909.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 924.0421)" class="st10 st11">0 {{ $tc("message.pt", 0) }}</text>
+	<path class="st9" d="M210.33,909.23h53.4c1.66,0,3,1.34,3,3v10.6c0,1.66-1.34,3-3,3h-53.4c-1.66,0-3-1.34-3-3v-10.6
+		C207.33,910.57,208.67,909.23,210.33,954.23z"/>
+	<text transform="matrix(1 0 0 1 228.954 954.0421)" class="st10 st11">0 {{ $tc("message.pt", 0) }}</text>
+</g>
+<g id="Texts">
+	<rect x="438.8" y="618" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 494.0555 654.0649)" class="st12 st14">UK</text>
+	<rect x="276.5" y="637.9" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 308.4437 672.0728)" class="st12 st15">Ireland</text>
+	<rect x="503" y="837.9" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 529.1259 873.9949)" class="st12 st14">France</text>
+	<rect x="419.6" y="1063.9" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 454.5198 1099.9177)" class="st12 st14">Spain</text>
+	<rect x="353.7" y="1075.1" class="st9" width="65.7" height="114.8"/>
+	<text transform="matrix(1 0 0 1 364.4144 1127.7808)"><tspan x="0" y="0" class="st12 st16">Por</tspan><tspan x="37.5" y="0" class="st12 st16">-</tspan><tspan x="-6.9" y="26.4" class="st12 st16">tugal</tspan></text>
+	<rect x="690.5" y="642" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 703.3309 677.2939)" class="st12 st17">Germany</text>
+	<rect x="864" y="624.1" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 888.7343 660.1151)" class="st12 st14">Poland</text>
+	<rect x="1139.5" y="681" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1156.8075 717.0649)" class="st12 st14">Ukraine</text>
+	<rect x="1041.5" y="567" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1069.0262 601.5)" class="st12 st18">Belarus</text>
+	<rect x="747.5" y="518.8" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 773.0126 551.7388)" class="st12 st16">Denmark</text>
+	<rect x="681.5" y="921" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 725.0062 957.0649)" class="st12 st14">Italy</text>
+	<rect x="567" y="715.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 606.6288 746.939)" class="st12 st11">Belgium</text>
+	<rect x="552" y="600" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 575.0066 630.668)" class="st12 st11">Netherlands</text>
+	<rect x="791.4" y="715.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 824.5345 748.481)" class="st12 st16">Czechia</text>
+	<rect x="890.5" y="807.3" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 910.5741 841.8453)" class="st12 st18">Hungary</text>
+	<rect x="1053" y="846" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1067.6151 881.2939)" class="st12 st17">Romania</text>
+	<rect x="1318.4" y="1034" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1341.4017 1070.0649)" class="st12 st14">Turkey</text>
+	<rect x="1044.5" y="1165.4" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1072.6366 1200.6735)" class="st12 st17">Greece</text>
+	<rect x="1072" y="938.4" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1089.8212 973.6489)" class="st12 st17">Bulgaria</text>
+	<rect x="767.5" y="835.2" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 795.9911 869.6782)" class="st12 st18">Austria</text>
+	<rect x="899.5" y="742.3" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 929.6156 775.3109)" class="st12 st16">Slovakia</text>
+	<rect x="659.8" y="850.5" class="st9" width="78.2" height="49"/>
+	<text transform="matrix(1 0 0 1 674.2625 865.7051)"><tspan x="0" y="0" class="st12 st20">Swit</tspan><tspan x="43.3" y="0" class="st12 st20">-</tspan><tspan x="-14" y="24" class="st12 st20">zerland</tspan></text>
+	<rect x="963.5" y="411.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1002.702 443.71)" class="st12 st20">Estonia</text>
+	<rect x="945.7" y="465.8" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 985.6877 499.527)" class="st12 st21">Latvia</text>
+	<rect x="939" y="510.3" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 972.951 541.7158)" class="st12 st11">Lithuania</text>
+	<rect x="1159.5" y="783.5" class="st9" width="62" height="49"/>
+	<text transform="matrix(1 0 0 1 1164.4257 802.8521)"><tspan x="0" y="0" class="st12 st21">Mol</tspan><tspan x="44.9" y="0" class="st12 st21">-</tspan><tspan x="-3.7" y="28.8" class="st12 st21">dova</tspan></text>
+	<rect x="940.5" y="916.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 976.0624 951.0073)" class="st12 st18">Serbia</text>
+	<rect x="780.5" y="875" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 836.1132 908.7471)" class="st12 st21">Slo.</text>
+	<rect x="941.2" y="1066" class="st9" width="92.5" height="49"/>
+	<text transform="matrix(1 0 0 1 952.5634 1097.439)" class="st12 st11">Albania</text>
+	<rect x="856.1" y="873.9" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 907.0862 903.827)" class="st12 st22">Croatia</text>
+	<rect x="867.7" y="909.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 929.0422 940.9233)" class="st12 st11">BiH</text>
+	<rect x="897.6" y="962.9" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 955.8191 994.2939)" class="st12 st11">MtN</text>
+	<rect x="975.5" y="991.2" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1036.5756 1021.1392)" class="st12 st22">Mac.</text>
+	<rect x="714.5" y="1045.6" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 755.8944 1076.2886)" class="st12 st19">Vatican</text>
+	<rect x="819.2" y="949.1" class="st9" width="58.6" height="49"/>
+	<text transform="matrix(1 0 0 1 837.6044 971.0742)"><tspan x="0" y="0" class="st12 st23">San </tspan><tspan x="-10.5" y="14.4" class="st12 st23">Marino</tspan></text>
+	<rect x="681.5" y="803.4" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 728.494 834.8488)" class="st12 st11">Liecht.</text>
+	<rect x="609.5" y="751.2" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 667.8143 782.6459)" class="st12 st11">Lux.</text>
+	<rect x="475" y="924.7" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 514.323 956.092)" class="st12 st11">Andorra</text>
+	<rect x="838.9" y="1203.1" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 890.5501 1234.5837)" class="st12 st11">Malta</text>
+	<rect x="1367.5" y="1174" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1411.787 1205.439)" class="st12 st11">Cyprus</text>
+	<rect x="560.5" y="985.1" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 601.8427 1016.5757)" class="st12 st11">Monaco</text>
+	<rect x="1380" y="858.6" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1421.0217 890.0211)" class="st12 st11">Georgia</text>
+	<rect x="1460.5" y="868.3" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1514.0117 899.777)" class="st12 st11">Azer.</text>
+	<rect x="1404" y="906.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1450.785 936.3584)" class="st12 st22">Armenia</text>
+	<rect x="288.9" y="214" class="st9" width="113.1" height="39"/>
+	<text transform="matrix(1 0 0 1 293.9506 244.2939)" class="st12 st17">Iceland</text>
+	<rect x="758.5" y="91" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 777.0673 127.0649)" class="st12 st14">Norway</text>
+	<rect x="805" y="307.5" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 834.8964 341.252)" class="st12 st21">Sweden</text>
+	<rect x="933.5" y="209" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 953.6713 245.0649)" class="st12 st14">Finland</text>
+	<rect x="1256.7" y="279.4" class="st9" width="154" height="49"/>
+	<text transform="matrix(1 0 0 1 1282.8127 315.4531)" class="st12 st14">Russia</text>
+</g>
+<!-- <text transform="matrix(1 0 0 1 379.8955 62.208)" class="st10 st15">US Level 0</text> -->
+<text id="Total" x="54" y="392">Europe Level 0</text>
+</svg>
 
-	<div id="设置等级">
-		<h2>地区</h2>
-		<a data-level="5">{{ $t("message.data_level_5") }}</a>
-		<a data-level="4">{{ $t("message.data_level_4") }}</a>
-		<a data-level="3">{{ $t("message.data_level_3") }}</a>
-		<a data-level="2">{{ $t("message.data_level_2") }}</a>
-		<a data-level="1">{{ $t("message.data_level_1") }}</a>
-		<a data-level="0" alt>{{ $t("message.data_level_0_alt") }}</a>
-		<a data-level="0">{{ $t("message.data_level_0") }}</a>
+<div id="设置等级">
+    <h2>地区</h2>
+    <a data-level="5">{{ $t("message.data_level_5") }}</a>
+    <a data-level="4">{{ $t("message.data_level_4") }}</a>
+    <a data-level="3">{{ $t("message.data_level_3") }}</a>
+    <a data-level="2">{{ $t("message.data_level_2") }}</a>
+    <a data-level="1">{{ $t("message.data_level_1") }}</a>
+    <a data-level="0" alt>{{ $t("message.data_level_0_alt") }}</a>
+    <a data-level="0">{{ $t("message.data_level_0") }}</a>
+</div>
+<div id="Set_Lang">
+	<a lang="English">English</a>
+	<a lang="繁體中文">繁體中文</a>
+	<a lang="简体中文">简体中文</a>
+	<a lang="日本語">日本語</a>
+	<a lang="Español">Español</a>
+	<a lang="Danish">Dansk</a>
+</div>
+<footer>
+	<a id="Reset" class="按钮">Reset</a>
+	<a href="us.html">US ver.</a>
+	<a href="https://github.com/tenpages/us-level" target="_blank">GitHub</a>
+	<a id="Lang" class="按钮">English</a>
+	<a id="保存" class="按钮">Save</a>
+</footer>
+<div id="输出图像" style="display: none;">
+	<div>
+		<img>
 	</div>
-	<div id="Set_Lang">
-		<a lang="English">English</a>
-		<a lang="繁體中文">繁體中文</a>
-		<a lang="简体中文">简体中文</a>
-		<a lang="日本語">日本語</a>
-		<a lang="Español">Español</a>
-		<a lang="Russian">Русский</a>
-		<a lang="Danish">Danish</a>
+	<p>
+		<b>Press and hold</b> to save on mobile devices
+	</p>
+	<p>
+		If no texts, click the button below and try to save again
+	</p>
+	<div>
+		<a class="按钮">Close</a>
 	</div>
-	<footer>
-		<a id="Reset" class="按钮">Reset</a>
-		<a href="us.html">US ver.</a>
-		<a href="https://github.com/tenpages/us-level" target="_blank">GitHub</a>
-		<a id="Lang" class="按钮">English</a>
-		<a id="保存" class="按钮">Save</a>
-	</footer>
-	<div id="输出图像" style="display: none;">
-		<div>
-			<img>
-		</div>
-		<p>
-			<b>Press and hold</b> to save on mobile devices
-		</p>
-		<p>
-			If no texts, click the button below and try to save again
-		</p>
-		<div>
-			<a class="按钮">Close</a>
-		</div>
-	</div>
-	<script src="https://unpkg.com/vue@3.2.41/dist/vue.global.prod.js"></script>
-	<script src="https://unpkg.com/vue-i18n@9.2.2/dist/vue-i18n.global.prod.js"></script>
-	<script src="eu.js?v=9"></script>
+</div>
+<script src="https://unpkg.com/vue@3.2.41/dist/vue.global.js"></script>
+<script src="https://unpkg.com/vue-i18n@9.2.2/dist/vue-i18n.global.js"></script>
+<script src="eu.js?v=9"></script>
 </body>
-
 </html>
