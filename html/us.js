@@ -426,6 +426,8 @@ const messages = {
             American_Samoa: 'Amerikansk Samoa',
             Nevada: 'Nevada',
             US_Virgin_Islands: 'Amerikanske Jomfruøer',
+        }
+    },
     עברית: {
         message: {
             data_level_5: 'גרת פו',
