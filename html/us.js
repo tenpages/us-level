@@ -358,7 +358,7 @@ const messages = {
             US_Virgin_Islands: 'Islas Virgenes de los Estados Unidos',
         }
     },
-    Hebrew: { // should not be named as hebrew symbols
+    עברית: { // should not be named as hebrew symbols
         message: {
             data_level_5: 'גרת פו',
             data_level_4: 'נשאר',

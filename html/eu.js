@@ -392,7 +392,7 @@ const messages = {
             Kosovo: 'Косово',
         }
     },
-    Hebrew: {
+    עברית: {
         message: {
             data_level_5: 'גרת פו',
             data_level_4: 'נשאר',
