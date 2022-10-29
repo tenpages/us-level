@@ -395,11 +395,9 @@ const 保存等级们 = _=>{
     for (const 省元素 of 获取所有省元素们()) {
         if (省元素.getAttribute('alt') == "true") {
             本地存储value += '-'
-            console.log("省元素")
         }
         else 本地存储value += 省元素.getAttribute('level')||0
     }
-    console.log(本地存储value)
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
 const 省等级们正则 = /^[\d|-]{56}$/;
@@ -488,7 +486,6 @@ const 计分 = _=>{
 })
 
 const 语言 = 文档.querySelector('#Lang');
-console.log(语言)
 const 设置语言样式 = Set_Lang.style;
 添加事件监控(语言,'click', e=>{
     全关闭()
@@ -531,8 +528,6 @@ const 设置语言样式 = Set_Lang.style;
     设置语言样式.top = 上 + 'px';
 });
 const 更改语言 = (新语言)=>{
-    console.log(新语言)
-    console.log(i18n.global.locale)
     i18n.global.locale = 新语言
 }
 添加事件监控(Set_Lang,'click',e=>{
