@@ -558,7 +558,6 @@ const 获取字体样式 = (字体名,回调)=>{
 };
 获取字体样式('slice',样式字串=>{
     图形.querySelector('style').innerHTML = 样式字串;
-    console.log(图形)
     const 样式元素 = 新建元素('style');
     样式元素.innerHTML = 样式字串;
     头元素.appendChild(样式元素);
