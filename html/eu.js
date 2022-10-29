@@ -69,6 +69,7 @@ const messages = {
             Armenia: 'Armenia',
             Monaco: 'Monaco',
             Malta: 'Malta',
+            Kosovo: 'Kosovo',
         }
     },
     简体中文: {
@@ -132,6 +133,7 @@ const messages = {
             Armenia: '亚美尼亚',
             Monaco: '摩纳哥',
             Malta: '马耳他',
+            Kosovo: '科索沃',
         }
     },
     繁體中文: {
@@ -195,6 +197,7 @@ const messages = {
             Armenia: '亞美尼亞',
             Monaco: '摩納哥',
             Malta: '馬爾他',
+            Kosovo: '科索沃',
         }
     },
     日本語: {
@@ -258,6 +261,7 @@ const messages = {
             Armenia: 'アルメニア',
             Monaco: 'モナコ',
             Malta: 'マルタ',
+            Kosovo: 'コソボ',
         }    
     },
     Español: {
@@ -321,6 +325,7 @@ const messages = {
             Armenia: 'Armenia',
             Monaco: 'Mónaco',
             Malta: 'Malta',
+            Kosovo: 'Kosovo',
         }
     },
     Russian: {
@@ -384,6 +389,7 @@ const messages = {
             Armenia: 'Армения',
             Monaco: 'Монако',
             Malta: 'Мальта',
+            Kosovo: 'Косово',
         }
     }
 }
@@ -432,7 +438,8 @@ const 保存等级们 = _=>{
 };
 const 省等级们正则 = /^[\d|-]{49}$/;
 const 获取等级们并生效 = _=>{
-    const 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
+    let 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
+    if(/^[\d|-]{48}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
