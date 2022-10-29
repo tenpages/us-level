@@ -72,10 +72,10 @@ const messages = {
             Hawaii: 'Hawaii',
             Puerto_Rico: 'Puerto Rico',
             Guam: 'Guam',
-            Northern_Mariana_Islands: 'Nordmarianerne',
-            American_Samoa: 'Amerikansk Samoa',
+            Northern_Mariana_Islands: 'Northern Mariana Islands',
+            American_Samoa: 'American Samoa',
             Nevada: 'Nevada',
-            US_Virgin_Islands: 'Amerikanske Jomfruøer',
+            US_Virgin_Islands: 'US Virgin Islands',
         }
     },
     简体中文: {
@@ -422,10 +422,10 @@ const messages = {
             Hawaii: 'Hawaii',
             Puerto_Rico: 'Puerto Rico',
             Guam: 'Guam',
-            Northern_Mariana_Islands: 'Northern Mariana Islands',
-            American_Samoa: 'American Samoa',
+            Northern_Mariana_Islands: 'Nordmarianerne',
+            American_Samoa: 'Amerikansk Samoa',
             Nevada: 'Nevada',
-            US_Virgin_Islands: 'US Virgin Islands',
+            US_Virgin_Islands: 'Amerikanske Jomfruøer',
         }
     }
 }
