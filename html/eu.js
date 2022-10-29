@@ -266,11 +266,11 @@ const messages = {
     },
     Español: {
         message: {
-            data_level_5: 'Vivido Aqui',
-            data_level_4: 'Quedado Aqui',
-            data_level_3: 'Visitado Aqui',
-            data_level_2: 'Detuvido Aqui',
-            data_level_1: 'Pase por Aqui',
+            data_level_5: 'Vivido aquí',
+            data_level_4: 'Quedado aquí',
+            data_level_3: 'Visitado aquí',
+            data_level_2: 'Parado aquí',
+            data_level_1: 'Pasé por aquí',
             data_level_0_alt: 'Quiero ir',
             data_level_0: 'Nunca he estado',
             pt: 'pt | pts',
