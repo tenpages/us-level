@@ -80,8 +80,8 @@ const messages = {
             data_level_2: 'Stoppede her',
             data_level_1: 'Passerede her',
             data_level_0_alt: 'Ville gerne bo her',
-            data_level_0: 'Har aldrig været her',
-            pt: 'point | point',
+            data_level_0: 'Har ikke været her',
+            pt: 'pnt | pnt',
         },
         country_name: {
             UK: 'Storbritannien',
