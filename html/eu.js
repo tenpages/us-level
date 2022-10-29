@@ -563,10 +563,12 @@ const 保存等级们 = _=>{
     }
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^[\d|-]{49}$/;
+const 省等级们正则 = /^[\d|-]{50}$/;
 const 获取等级们并生效 = _=>{
     let 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
-    if(/^[\d|-]{48}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    console.log(等级们字串.length)
+    if(/^[\d|-]{49}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    console.log(等级们字串)
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
