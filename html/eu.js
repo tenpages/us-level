@@ -331,13 +331,13 @@ const messages = {
     },
     French: {
         message: {
-            data_level_5: "J'ai vécu ici",
-            data_level_4: "J'ai dormi ici",
-            data_level_3: "J'ai visité ici",
-            data_level_2: "Je me suis arrêté·e ici",
-            data_level_1: "Je suis passé·e par ici",
-            data_level_0_alt: "J'aimerais être ici",
-            data_level_0: "Je ne suis jamais allé·e ici",
+            data_level_5: "Déjà habité",
+            data_level_4: "Déjà séjourné",
+            data_level_3: "Déjà visité",
+            data_level_2: "Déjà fait un arrêt",
+            data_level_1: "Déjà passé·e",
+            data_level_0_alt: "Dans mes projets",
+            data_level_0: "Jamais visité",
             pt: 'pt | pts',
         },
         country_name: {
