@@ -875,7 +875,7 @@ const 全关闭 = _=>{
 const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
-const 本地存储等级们钥匙 = 'us-levels';
+const 本地存储等级们钥匙 = 'cam-levels';
 const 保存等级们 = _=>{
     let 本地存储value = ""
     for (const 省元素 of 获取所有省元素们()) {
