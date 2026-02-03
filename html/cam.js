@@ -942,6 +942,7 @@ const 计分 = _=>{
       }, 0);
     Total.innerHTML = `CAM Level ${分}`;
     webtitle.innerHTML = `CAM Level ${分}`;
+    return 分;
 }
 添加事件监控(设置等级,'click',e=>{
     e.stopPropagation();
@@ -1140,9 +1141,10 @@ const 保存图像 = _=>{
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
+        const 分 = 计分();
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`CAM Level 0.png`);
+            下载文件(地址,`CAM Level ${分}.png`);
 
             输出图像.style.display = '';
             输出图像.querySelector('img').src = 地址;
