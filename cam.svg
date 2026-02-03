@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1146.1 912.5">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: #fff;
+      }
+
+      .st0, .st3 {
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st3, .st2 {
+        stroke: #000;
+      }
+
+      .st0, .st2 {
+        stroke-width: 3px;
+      }
+
+      .st4 {
+        font-size: 16.01px;
+      }
+
+      .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12 {
+        font-family: LucidaSans-Demi, 'Lucida Sans';
+        font-weight: 300;
+      }
+
+      .st4, .st6, .st8, .st9, .st10, .st11, .st12 {
+        isolation: isolate;
+      }
+
+      .st13 {
+        fill: #ff7e7e;
+      }
+
+      .st5, .st10 {
+        font-size: 12.01px;
+      }
+
+      .st6 {
+        font-size: 18px;
+      }
+
+      .st14 {
+        fill: #ffe57e;
+      }
+
+      .st15 {
+        display: none;
+        fill: #a9a9d9;
+      }
+
+      .st7 {
+        font-size: 16px;
+      }
+
+      .st16 {
+        fill: #ffb57e;
+      }
+
+      .st17, .st3 {
+        fill: none;
+      }
+
+      .st8 {
+        font-size: 72px;
+      }
+
+      .st18 {
+        fill: #d6beff;
+      }
+
+      .st19 {
+        fill: #88aeff;
+      }
+
+      .st3 {
+        stroke-width: 2px;
+      }
+
+      .st2 {
+        stroke-linejoin: round;
+      }
+
+      .st9 {
+        font-size: 14.01px;
+      }
+
+      .st20 {
+        fill: #a8ffbe;
+      }
+
+      .st11 {
+        font-size: 6.5px;
+      }
+
+      .st12 {
+        font-size: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="st15" x="-43.8" y="-7.1" width="1920" height="1080"/>
+  <g id="Layer_4">
+    <path class="st19" d="M904,795.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st13" d="M904,667.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st20" d="M904,763.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st16" d="M904,699.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st18" d="M904,827.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st14" d="M904,731.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st1" d="M904,859.33h216.1c1.7,0,3,1.3,3,3v26c0,1.7-1.3,3-3,3h-216.1c-1.7,0-3-1.3-3-3v-26c0-1.7,1.3-3,3-3Z"/>
+    <path class="st3" d="M904,667.33h216.1c1.7,0,3,1.5,3,3.5v217c0,2-1.3,3.5-3,3.5h-216.1c-1.7,0-3-1.5-3-3.5v-217c0-2,1.3-3.5,3-3.5Z"/>
+    <path class="st17" d="M911.5,674.93h90.2c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-90.2c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(908.51 689.81)"><tspan x="0" y="0">Lived here </tspan></text>
+    <path class="st17" d="M912.1,707.13h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-117.9c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(909.05 721.93)"><tspan x="0" y="0">Stayed here </tspan></text>
+    <path class="st17" d="M912.5,739.13h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-117.9c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(909.51 753.92)"><tspan x="0" y="0">Visited here </tspan></text>
+    <path class="st17" d="M911.5,771.13h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-117.9c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(908.51 785.93)"><tspan x="0" y="0">Alighted here </tspan></text>
+    <path class="st17" d="M912.5,803.13h117.9c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-117.9c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(909.51 817.93)"><tspan x="0" y="0">Passed here </tspan></text>
+    <path class="st17" d="M912.5,835.13h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-165.5c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(909.51 849.93)"><tspan x="0" y="0">Want to be here</tspan></text>
+    <path class="st17" d="M1056.4,675.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1079.99 690.35)"><tspan x="0" y="0">5 pt </tspan></text>
+    <path class="st17" d="M1056.4,706.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1080.02 721.35)"><tspan x="0" y="0">4 pt </tspan></text>
+    <path class="st17" d="M1057.4,738.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1081.02 753.35)"><tspan x="0" y="0">3 pt </tspan></text>
+    <path class="st17" d="M1057.4,770.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1081.02 785.35)"><tspan x="0" y="0">2 pt </tspan></text>
+    <path class="st17" d="M1057.4,802.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1081.02 817.35)"><tspan x="0" y="0">1 pt </tspan></text>
+    <path class="st17" d="M1057.4,834.53h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1081.02 849.35)"><tspan x="0" y="0">0 pt </tspan></text>
+    <path class="st17" d="M912.9,865.03h165.5c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-165.5c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(909.91 879.8)"><tspan x="0" y="0">Never been here </tspan></text>
+    <path class="st17" d="M1057.8,864.43h53.4c1.7,0,3,1.3,3,3v10.6c0,1.7-1.3,3-3,3h-53.4c-1.7,0-3-1.3-3-3v-10.6c0-1.7,1.3-3,3-3Z"/>
+    <text class="st6" transform="translate(1081.42 879.22)"><tspan x="0" y="0">0 pt </tspan></text>
+  </g>
+  <text class="st8" transform="translate(624.02 108.36)"><tspan x="0" y="0">CAM Level 0</tspan></text>
+  <g>
+    <path id="Maryland" class="st0" d="M726.49,412.59h58.7c1.13,0,2,.87,2,2v18.68c0,1.13-.87,2-2,2h-58.7c-1.13,0-2-.87-2-2v-18.68c0-1.13.87-2,2-2Z"/>
+    <path id="Ohio" class="st0" d="M654.44,389.24h50.7c1.13,0,2,.87,2,2v59.37c0,1.13-.87,2-2,2h-50.7c-1.13,0-2-.87-2-2v-59.37c0-1.13.87-2,2-2Z"/>
+    <path id="California" class="st0" d="M278.21,379.9v185.51c0,1.67-1.87,2.6-3.2,1.6l-92.19-67.11c-.53-.4-.8-1-.8-1.6v-118.41c0-1.13.87-2,2-2h92.19c1.13,0,2,.87,2,2Z"/>
+    <path id="Utah" class="st0" d="M280.21,377.9h48.7c1.13,0,2,.87,2,2v96.06c0,1.13-.87,2-2,2h-48.7c-1.13,0-2-.87-2-2v-96.06c0-1.13.87-2,2-2Z"/>
+    <path id="Idaho" class="st0" d="M258.2,275.83h58.04c1.13,0,2,.87,2,2v98.06c0,1.13-.87,2-2,2h-58.04c-1.13,0-2-.87-2-2v-98.06c0-1.13.87-2,2-2Z"/>
+    <path id="South_Dakota" class="st0" d="M407.62,328.53h94.73c1.13,0,2,.87,2,2v45.36c0,1.13-.87,2-2,2h-94.73c-1.13,0-2-.87-2-2v-45.36c0-1.13.87-2,2-2Z"/>
+    <path id="Nebraska" class="st0" d="M407.62,377.9h104.06c1.13,0,2,.87,2,2v46.03c0,1.13-.87,2-2,2h-104.06c-1.13,0-2-.87-2-2v-46.03c0-1.13.87-2,2-2Z"/>
+    <path id="Oklahoma" class="st0" d="M412.29,477.96h115.4c1.13,0,2,.87,2,2v50.03c0,1.13-.87,2-2,2h-115.4c-1.13,0-2-.87-2-2v-50.03c0-1.13.87-2,2-2Z"/>
+    <path id="Missouri" class="st0" d="M515.69,419.92h82.72c1.13,0,2,.87,2,2v66.71c0,1.13-.87,2-2,2h-82.72c-1.13,0-2-.87-2-2v-66.71c0-1.13.87-2,2-2Z"/>
+    <path id="Illinois" class="st0" d="M578.4,375.9h36.02c1.13,0,2,.87,2,2v86.05c0,1.13-.87,2-2,2h-36.02c-1.13,0-2-.87-2-2v-86.05c0-1.13.87-2,2-2Z"/>
+    <path id="Maine" class="st0" d="M826.88,269.16h25.02c1.13,0,2,.87,2,2v58.04c0,1.13-.87,2-2,2h-25.02c-1.13,0-2-.87-2-2v-58.04c0-1.13.87-2,2-2Z"/>
+    <path id="New_Hampshire" class="st0" d="M809.87,297.85h12.67c1.13,0,2,.87,2,2v42.69c0,1.13-.87,2-2,2h-12.67c-1.13,0-2-.87-2-2v-42.69c0-1.13.87-2,2-2Z"/>
+    <path id="Vermont" class="st0" d="M793.2,297.85h12.67c1.13,0,2,.87,2,2v42.69c0,1.13-.87,2-2,2h-12.67c-1.13,0-2-.87-2-2v-42.69c0-1.13.87-2,2-2Z"/>
+    <path id="Massachusettes" class="st0" d="M793.2,344.54h41.36c1.13,0,2,.87,2,2v27.35c0,1.13-.87,2-2,2h-41.36c-1.13,0-2-.87-2-2v-27.35c0-1.13.87-2,2-2Z"/>
+    <path id="Connecticut" class="st0" d="M793.2,362.56h17.34c1.13,0,2,.87,2,2v9.34c0,1.13-.87,2-2,2h-17.34c-1.13,0-2-.87-2-2v-9.34c0-1.13.87-2,2-2Z"/>
+    <path id="New_York" class="st0" d="M734.49,297.85h54.7c1.13,0,2,.87,2,2v81.38c0,1.13-.87,2-2,2h-54.7c-1.13,0-2-.87-2-2v-81.38c0-1.13.87-2,2-2Z"/>
+    <path id="Rhode_Island" class="st0" d="M814.54,362.56h8c1.13,0,2,.87,2,2v9.34c0,1.13-.87,2-2,2h-8c-1.13,0-2-.87-2-2v-9.34c0-1.13.87-2,2-2Z"/>
+    <path id="Pennsylvania" class="st0" d="M709.14,375.9h60.04c1.13,0,2,.87,2,2v32.69c0,1.13-.87,2-2,2h-60.04c-1.13,0-2-.87-2-2v-32.69c0-1.13.87-2,2-2Z"/>
+    <path id="New_Jersy" class="st0" d="M773.18,383.23h16.01c1.13,0,2,.87,2,2v20.01c0,1.13-.87,2-2,2h-16.01c-1.13,0-2-.87-2-2v-20.01c0-1.13.87-2,2-2Z"/>
+    <path id="Delaware" class="st0" d="M773.18,407.25h12.01c1.13,0,2,.87,2,2v12.01c0,1.13-.87,2-2,2h-12.01c-1.13,0-2-.87-2-2v-12.01c0-1.13.87-2,2-2Z"/>
+    <path id="Virginia" class="st0" d="M697.14,435.27h88.05c1.13,0,2,.87,2,2v36.69c0,1.13-.87,2-2,2h-88.05c-1.13,0-2-.87-2-2v-36.69c0-1.13.87-2,2-2Z"/>
+    <path id="DC" class="st0" d="M760.51,428.6h13.34c1.13,0,2,.87,2,2v8c0,1.13-.87,2-2,2h-13.34c-1.13,0-2-.87-2-2v-8c0-1.13.87-2,2-2Z"/>
+    <path id="West_Virginia" class="st0" d="M697.14,412.59h25.35c1.13,0,2,.87,2,2v41.36c0,1.13-.87,2-2,2h-25.35c-1.13,0-2-.87-2-2v-41.36c0-1.13.87-2,2-2Z"/>
+    <path id="Kentucky" class="st0" d="M602.41,451.94h90.72c1.13,0,2,.87,2,2v20.01c0,1.13-.87,2-2,2h-90.72c-1.13,0-2-.87-2-2v-20.01c0-1.13.87-2,2-2Z"/>
+    <path id="North_Carolina" class="st0" d="M704.47,475.96h68.04c1.13,0,2,.87,2,2v22.01c0,1.13-.87,2-2,2h-68.04c-1.13,0-2-.87-2-2v-22.01c0-1.13.87-2,2-2Z"/>
+    <path id="Tennessee" class="st0" d="M602.41,475.96h98.06c1.13,0,2,.87,2,2v22.01c0,1.13-.87,2-2,2h-98.06c-1.13,0-2-.87-2-2v-22.01c0-1.13.87-2,2-2Z"/>
+    <path id="South_Carolina" class="st0" d="M728.49,501.98h34.02c1.13,0,2,.87,2,2v38.69c0,1.13-.87,2-2,2h-34.02c-1.13,0-2-.87-2-2v-38.69c0-1.13.87-2,2-2Z"/>
+    <path id="Georgia" class="st0" d="M673.79,501.98h50.7c1.13,0,2,.87,2,2v66.04c0,1.13-.87,2-2,2h-50.7c-1.13,0-2-.87-2-2v-66.04c0-1.13.87-2,2-2Z"/>
+    <path id="Alabama" class="st0" d="M622.42,501.98h47.36c1.13,0,2,.87,2,2v76.71c0,1.13-.87,2-2,2h-47.36c-1.13,0-2-.87-2-2v-76.71c0-1.13.87-2,2-2Z"/>
+    <path id="Indiana" class="st0" d="M618.42,389.24h32.02c1.13,0,2,.87,2,2v58.7c0,1.13-.87,2-2,2h-32.02c-1.13,0-2-.87-2-2v-58.7c0-1.13.87-2,2-2Z"/>
+    <path id="Wisconsin" class="st0" d="M555.71,311.86h58.7c1.13,0,2,.87,2,2v60.04c0,1.13-.87,2-2,2h-58.7c-1.13,0-2-.87-2-2v-60.04c0-1.13.87-2,2-2Z"/>
+    <path id="Louisiana" class="st0" d="M535.7,549.34h62.71c1.13,0,2,.87,2,2v58.7c0,1.13-.87,2-2,2h-62.71c-1.13,0-2-.87-2-2v-58.7c0-1.13.87-2,2-2Z"/>
+    <path id="Arkansas" class="st0" d="M531.7,490.63h66.71c1.13,0,2,.87,2,2v54.7c0,1.13-.87,2-2,2h-66.71c-1.13,0-2-.87-2-2v-54.7c0-1.13.87-2,2-2Z"/>
+    <path id="Mississippi" class="st0" d="M582.4,501.98h36.02c1.13,0,2,.87,2,2v76.71c0,1.13-.87,2-2,2h-36.02c-1.13,0-2-.87-2-2v-76.71c0-1.13.87-2,2-2Z"/>
+    <path id="Iowa" class="st0" d="M506.35,369.23h68.04c1.13,0,2,.87,2,2v46.7c0,1.13-.87,2-2,2h-68.04c-1.13,0-2-.87-2-2v-46.7c0-1.13.87-2,2-2Z"/>
+    <path id="Minnesota" class="st0" d="M499.68,275.83h68.04c1.13,0,2,.87,2,2v89.39c0,1.13-.87,2-2,2h-68.04c-1.13,0-2-.87-2-2v-89.39c0-1.13.87-2,2-2Z"/>
+    <path id="Kansas" class="st0" d="M430.3,427.93h81.38c1.13,0,2,.87,2,2v46.03c0,1.13-.87,2-2,2h-81.38c-1.13,0-2-.87-2-2v-46.03c0-1.13.87-2,2-2Z"/>
+    <path id="North_Dakota" class="st0" d="M407.62,275.83h88.05c1.13,0,2,.87,2,2v48.7c0,1.13-.87,2-2,2h-88.05c-1.13,0-2-.87-2-2v-48.7c0-1.13.87-2,2-2Z"/>
+    <path id="Colorado" class="st0" d="M332.91,404.58h93.39c1.13,0,2,.87,2,2v69.38c0,1.13-.87,2-2,2h-93.39c-1.13,0-2-.87-2-2v-69.38c0-1.13.87-2,2-2Z"/>
+    <path id="Wyoming" class="st0" d="M320.24,338.54h83.39c1.13,0,2,.87,2,2v62.04c0,1.13-.87,2-2,2h-83.39c-1.13,0-2-.87-2-2v-62.04c0-1.13.87-2,2-2Z"/>
+    <path id="Montana" class="st0" d="M298.89,275.83h104.73c1.13,0,2,.87,2,2v58.7c0,1.13-.87,2-2,2h-104.73c-1.13,0-2-.87-2-2v-58.7c0-1.13.87-2,2-2Z"/>
+    <path id="Arizona" class="st0" d="M280.21,477.96h48.7c1.13,0,2,.87,2,2v87.39c0,1.13-.87,2-2,2h-48.7c-1.13,0-2-.87-2-2v-87.39c0-1.13.87-2,2-2Z"/>
+    <path id="Oregon" class="st0" d="M174.81,319.2h79.38c1.13,0,2,.87,2,2v54.7c0,1.13-.87,2-2,2h-79.38c-1.13,0-2-.87-2-2v-54.7c0-1.13.87-2,2-2Z"/>
+    <path id="Washington" class="st0" d="M165.47,275.83h88.72c1.13,0,2,.87,2,2v39.36c0,1.13-.87,2-2,2h-88.72c-1.13,0-2-.87-2-2v-39.36c0-1.13.87-2,2-2Z"/>
+    <path id="Texas" class="st0" d="M533.7,533.99v77.38c0,.47-.13.87-.4,1.2l-44.29,57.1c-.73.93-2.07,1.07-2.94.27l-109.8-100c-.4-.4-.67-.93-.67-1.47v-34.49c0-1.13.87-2,2-2h154.1c1.13,0,2,.87,2,2Z"/>
+    <path id="New_Mexico" class="st0" d="M332.91,477.96h75.38c1.13,0,2,.87,2,2v87.39c0,1.13-.87,2-2,2h-75.38c-1.13,0-2-.87-2-2v-87.39c0-1.13.87-2,2-2Z"/>
+    <path id="Michigan" class="st0" d="M675.59,299.52v87.72c0,1.13-.87,2-2,2h-37.16c-1.13,0-2-.87-2-2v-73.38c0-1.13-.87-2-2-2h-37.89c-1.13,0-2-.87-2-2v-10.34c0-1.13.87-2,2-2h79.05c1.13,0,2,.87,2,2Z"/>
+    <path id="Florida" class="st0" d="M726.49,574.02v87.59c0,1.13-.87,2-2,2h-23.35c-1.13,0-2-.87-2-2v-68.84c0-1.13-.87-2-2-2h-49.03c-1.13,0-2-.87-2-2v-14.74c0-1.13.87-2,2-2h76.38c1.13,0,2,.87,2,2Z"/>
+    <path id="Hawaii" class="st0" d="M46.63,507.34h-12.67c-1.13,0-2-.87-2-2v-6.54c0-1.6,1.8-2.53,3.14-1.67l70.31,49.03c1.6,1.13.8,3.67-1.13,3.67h-20.08c-1.07,0-1.93-.8-2-1.87l-1.47-27.28c-.07-1.07-.93-1.87-2-1.87h-28.15c-1.13,0-2-.87-2-2v-7.4c.07-1.2-.8-2.07-1.93-2.07Z"/>
+    <path id="Puerto_Rico" class="st0" d="M808.8,635.26l-4.27,7.07c-.33.6-1,1-1.73,1h-26.22c-1.13,0-2-.87-2-2v-7.07c0-1.13.87-2,2-2h30.49c1.53,0,2.53,1.67,1.73,3Z"/>
+    <path id="Guam" class="st0" d="M780.12,681.69h-3.54c-1.13,0-2-.87-2-2v-8.41c0-.6.27-1.13.73-1.53l8.14-6.8c1.53-1.27,3.8.2,3.2,2.13l-4.6,15.21c-.27.8-1.07,1.4-1.93,1.4Z"/>
+    <path id="Northern_Mariana_Islands" class="st0" d="M817.74,669.01l-7.14.87c-1.2.13-2,1.33-1.67,2.53l.07.27c.53,1.87,3.14,2,3.8.13l2.67-7.4c.67-1.93,3.47-1.73,3.87.27l.2.93c.13,1.13-.67,2.27-1.8,2.4Z"/>
+    <path id="American_Samoa" class="st0" d="M844.03,672.15l-3.6,1.93c-.67.4-1.53.33-2.2-.2l-1.33-1c-1.33-1.07-.87-3.2.87-3.54l4.94-.93c2.27-.47,3.34,2.6,1.33,3.74Z"/>
+    <path id="Nevada" class="st0" d="M278.21,379.9v113.27c0,1.6-1.8,2.6-3.14,1.6l-59.7-42.29c-.53-.4-.87-1-.87-1.6v-70.98c0-1.13.87-2,2-2h59.7c1.13,0,2,.87,2,2Z"/>
+    <path id="US_Virgin_Islands" class="st0" d="M841.02,632.26h10.07c1.67,0,2.6,1.93,1.53,3.27l-8.47,10.54c-1.07,1.33-.13,3.27,1.53,3.27h6.14c1.93,0,2.74-2.47,1.2-3.6l-13.21-9.87c-1.53-1.13-.73-3.6,1.2-3.6Z"/>
+    <path id="British_Columbia" class="st0" d="M160.18,178.84h144.43c1.85,0,3.26,1.4,3.26,3.23v90.53c0,1.83-1.41,3.23-3.26,3.23h-144.43c-1.85,0-3.26-1.4-3.26-3.23v-90.53c0-1.83,1.41-3.23,3.26-3.23Z"/>
+    <path id="Alberta" class="st0" d="M308.92,178.84h46.51c.59,0,1.05,1.4,1.05,3.23v90.53c0,1.83-.45,3.23-1.05,3.23h-46.51c-.59,0-1.05-1.4-1.05-3.23v-90.53c0-1.83.45-3.23,1.05-3.23Z"/>
+    <path id="Saskatchewan" class="st0" d="M358.34,178.84h82.76c1.06,0,1.87,1.4,1.87,3.23v90.53c0,1.83-.81,3.23-1.87,3.23h-82.76c-1.06,0-1.87-1.4-1.87-3.23v-90.53c0-1.83.81-3.23,1.87-3.23Z"/>
+    <path id="Manitoba" class="st2" d="M442.96,181.83v91.02c0,1.65,1.34,2.99,2.99,2.99h73.96c1.65,0,2.99-1.34,2.99-2.99v-52.27c0-1.65-1.34-2.99-2.99-2.99h-19.25c-1.65,0-2.99-1.34-2.99-2.99v-32.78c0-1.65-1.34-2.99-2.99-2.99h-48.74c-1.65,0-2.99,1.34-2.99,2.99Z"/>
+    <path id="Ontario" class="st2" d="M522.9,220.57v52.29c0,1.64,1.33,2.98,2.98,2.98h109.43c1.64,0,2.98,1.33,2.98,2.98v15.74c0,1.64,1.33,2.97,2.97,2.98l108.44.32c1.65,0,2.99-1.33,2.99-2.98v-74.3c0-1.64-1.33-2.98-2.98-2.98h-223.83c-1.64,0-2.98,1.33-2.98,2.98Z"/>
+    <path id="Quebec" class="st2" d="M755.71,297.63h66.15c1.67,0,3.03-1.36,3.03-3.03v-22.41c0-1.67,1.36-3.03,3.03-3.03h7.64c1.67,0,3.03-1.36,3.03-3.03v-109.36c0-1.67-1.36-3.03-3.03-3.03h-79.85c-1.67,0-3.03,1.36-3.03,3.03v137.83c0,1.67,1.36,3.03,3.03,3.03Z"/>
+    <path id="New_Brunswick" class="st2" d="M838.58,239.48v26.67c0,1.67,1.35,3.02,3.02,3.02h9.28c1.67,0,3.02,1.35,3.02,3.02v19.1c0,1.67,1.35,3.02,3.02,3.02h15.78c1.67,0,3.02-1.35,3.02-3.02v-51.8c0-1.67-1.35-3.02-3.02-3.02h-31.09c-1.67,0-3.02,1.35-3.02,3.02Z"/>
+    <path id="Nova_Scotia" class="st2" d="M865,297.27v7.77c0,1.64,1.33,2.97,2.97,2.97h22.89c1.64,0,2.97-1.33,2.97-2.97v-32.91c0-1.64-1.33-2.97-2.97-2.97h-7.55c-2.7,0-4-3.32-2.01-5.15l6.95-6.41c1.99-1.83.69-5.15-2.01-5.15h-6.99c-1.62,0-2.94,1.3-2.97,2.93l-.52,35.99c-.02,1.62-1.35,2.93-2.97,2.93h-4.82c-1.64,0-2.97,1.33-2.97,2.97Z"/>
+    <path id="Newfoundland_and_Labrador" class="st2" d="M838.58,155.78v32.24c0,1.13.91,2.04,2.04,2.04h46.34c1.13,0,2.04.91,2.04,2.04v15.79c0,1.93-2.44,2.78-3.64,1.26l-43.14-54.64c-1.2-1.52-3.64-.67-3.64,1.26Z"/>
+    <path id="Nunavut" class="st2" d="M495.74,180.46h-50.83c-1.07,0-1.94-.87-1.94-1.94v-50.79c0-.62-.3-58.2-.8-58.57l-28.63-20.82c-1.52-1.11-.74-3.51,1.14-3.51h81.06c1.07,0,1.94.87,1.94,1.94v131.75c0,1.07-.87,1.94-1.94,1.94Z"/>
+    <path id="Northwest_Territories" class="st2" d="M257.04,180.46h183.29c1.45,0,2.63-1.18,2.63-2.63v-49.76c0-.84-.4-58.63-1.08-59.12l-32.49-23.62c-.45-.33-.99-.5-1.55-.5h-183.9c-1.91,0-3.18,1.97-2.4,3.71l33.1,130.38c.43.94,1.36,1.55,2.4,1.55Z"/>
+    <path id="Yukon" class="st2" d="M158.94,180.46h93.27c1.47,0,2.44-1.51,1.84-2.85l-33.65-131.6c-.33-.72-1.05-1.19-1.84-1.19h-59.62c-1.12,0-2.02.9-2.02,2.02v131.6c0,1.12.9,2.02,2.02,2.02Z"/>
+    <path id="Alaska" class="st2" d="M97.82,180.46h57.05c1.13,0,2.05-.92,2.05-2.05V46.87c0-1.13-.92-2.05-2.05-2.05h-78.4c-.93,0-1.75.63-1.98,1.53l-22.48,143.31c-.34,1.3.64,2.56,1.98,2.56h39.93c1.15,0,2.08-.95,2.05-2.1l-.19-7.57c-.03-1.15.9-2.1,2.05-2.1Z"/>
+    <rect id="Prince_Edward_Island" class="st2" x="882.21" y="236.46" width="18.79" height="11.06" rx="3.49" ry="3.49"/>
+    <path id="Baja_California" class="st0" d="M276.09,567.72l-37.1-27.01c-1.02-.74-2.44-.01-2.44,1.24v121.02c0,.85.69,1.54,1.54,1.54h13.07c.85,0,1.54-.69,1.54-1.54v-91.15c0-.86.71-1.56,1.57-1.54,4.02.08,14.83.29,20.94.22,1.48-.02,2.08-1.91.88-2.78Z"/>
+    <rect id="Baja_California_Sur" class="st0" x="236.55" y="664.51" width="16.15" height="99.45" rx="1.59" ry="1.59"/>
+    <path id="Sonora" class="st0" d="M278.92,571.37l32.06,91.22c.21.61.79,1.01,1.43,1.01h10.24c.84,0,1.52-.68,1.52-1.52v-91.22c0-.84-.68-1.52-1.52-1.52h-42.3c-1.05,0-1.78,1.03-1.43,2.02Z"/>
+    <path id="Chihuahua" class="st0" d="M324.17,570.91v91.15c0,.85.69,1.55,1.55,1.55h78.36c.85,0,1.55-.69,1.55-1.55v-64.7c0-.44-.18-.85-.51-1.14l-28.41-25.87c-.28-.26-.64-.4-1.02-.4l-49.95-.58c-.86,0-1.56.69-1.56,1.55Z"/>
+    <path id="Coahuila" class="st0" d="M405.62,600.14v90.07c0,.84.68,1.53,1.53,1.53h41.23c.84,0,1.53-.68,1.53-1.53v-52.53c0-.43-.18-.84-.5-1.13l-41.23-37.55c-.98-.89-2.56-.2-2.56,1.13Z"/>
+    <path id="Tamaulipas" class="st0" d="M463.64,652.97v53.26c0,.88.71,1.58,1.58,1.58h21.14c.88,0,1.58-.71,1.58-1.58v-35.03c0-.46-.2-.9-.55-1.2l-21.14-18.22c-1.03-.89-2.62-.16-2.62,1.2Z"/>
+    <path id="Nuevo_León" class="st0" d="M449.91,640.53v50.64c0,.37.13.73.37,1.01l10.62,12.44c.94,1.1,2.74.43,2.74-1.01v-53.41c0-.44-.18-.85-.51-1.15l-10.62-9.67c-1-.91-2.6-.2-2.6,1.15Z"/>
+    <path id="Sinaloa" class="st0" d="M312.09,665.79l21.74,63.55c.23.67.86,1.12,1.56,1.12h14.28c.91,0,1.65-.74,1.65-1.65v-63.55c0-.91-.74-1.65-1.65-1.65h-36.02c-1.13,0-1.93,1.11-1.56,2.19Z"/>
+    <path id="Durango" class="st0" d="M351.32,665.14v63.79c0,.84.68,1.53,1.53,1.53h63.15c.84,0,1.53-.68,1.53-1.53v-35.66c0-.84-.68-1.53-1.53-1.53h-8.85c-.84,0-1.53-.68-1.53-1.53v-25.08c0-.84-.68-1.53-1.53-1.53h-51.24c-.84,0-1.53.68-1.53,1.53Z"/>
+    <path id="San_Luis_Potosí" class="st0" d="M452.56,694.85l10.62,12.44c.29.34.71.53,1.15.53h13.68c.83,0,1.51.68,1.51,1.51v37.97c0,.83-.68,1.51-1.51,1.51h-26.6c-.83,0-1.51-.68-1.51-1.51v-51.46c0-1.4,1.74-2.04,2.65-.98Z"/>
+    <path id="Nayarit" class="st0" d="M334.85,732.43l11.92,36.61c.2.62.78,1.04,1.43,1.04h17.33c.83,0,1.51-.67,1.51-1.51v-36.61c0-.83-.67-1.51-1.51-1.51h-29.25c-1.02,0-1.75,1-1.43,1.97Z"/>
+    <path id="Zacatecas" class="st0" d="M417.53,693.27v43.47c0,.84.68,1.53,1.53,1.53h12.23c.84,0,1.53.68,1.53,1.53v7.47c0,.84.68,1.53,1.53,1.53h14.04c.84,0,1.53-.68,1.53-1.53v-54c0-.84-.68-1.53-1.53-1.53h-29.32c-.84,0-1.53.68-1.53,1.53Z"/>
+    <path id="Jalisco" class="st0" d="M347.67,772.03l3.34,11.77c.19.66.79,1.11,1.47,1.11h95.9c.84,0,1.53-.68,1.53-1.53v-33.06c0-.84-.68-1.53-1.53-1.53h-29.32c-.84,0-1.53-.68-1.53-1.53v-15.28c0-.84-.68-1.53-1.53-1.53h-47.43c-.84,0-1.53.68-1.53,1.53v36.57c0,.84-.68,1.53-1.53,1.53h-16.37c-1.01,0-1.75.97-1.47,1.95Z"/>
+    <rect id="Guanajuato" class="st0" x="449.91" y="748.8" width="16.3" height="36.11" rx="1.47" ry="1.47"/>
+    <rect id="Querétaro" class="st0" x="466.21" y="748.8" width="13.31" height="36.11" rx="1.53" ry="1.53"/>
+    <rect id="Hidalgo" class="st0" x="479.52" y="748.8" width="16.35" height="36.11" rx="1.55" ry="1.55"/>
+    <rect id="Colima" class="st0" x="351.32" y="784.91" width="23.19" height="19.25" rx="1.52" ry="1.52"/>
+    <rect id="Michoacán" class="st0" x="374.51" y="784.91" width="91.7" height="43.7" rx="1.53" ry="1.53"/>
+    <path id="México" class="st0" d="M494.26,784.91h-26.45c-.89,0-1.6.72-1.6,1.6v40.49c0,.89.72,1.6,1.6,1.6h11.62c.89,0,1.6-.72,1.6-1.6v-17.62c0-.89.72-1.6,1.6-1.6h11.62c.89,0,1.6-.72,1.6-1.6v-19.66c0-.89-.72-1.6-1.6-1.6Z"/>
+    <rect id="Tlaxcala" class="st0" x="495.87" y="784.91" width="21.85" height="22.87" rx="1.7" ry="1.7"/>
+    <path id="Puebla" class="st0" d="M495.87,826.74v-17.09c0-1.03.84-1.87,1.87-1.87h18.11c1.03,0,1.87-.84,1.87-1.87v-19.13c0-1.03.84-1.87,1.87-1.87h10.08c1.03,0,1.87.84,1.87,1.87v39.96c0,1.03-.84,1.87-1.87,1.87h-31.92c-1.03,0-1.87-.84-1.87-1.87Z"/>
+    <rect id="Ciudad_de_México" class="st0" x="481.04" y="807.78" width="14.83" height="10.64" rx="1.42" ry="1.42"/>
+    <rect id="Morelos" class="st0" x="481.04" y="818.42" width="14.83" height="10.19" rx="1.47" ry="1.47"/>
+    <rect id="Aguascalientes" class="st0" x="417.53" y="738.27" width="15.28" height="10.53" rx="1.53" ry="1.53"/>
+    <rect id="Guerrero" class="st0" x="394.89" y="828.61" width="117.51" height="41.32" rx="1.58" ry="1.58"/>
+    <rect id="Oaxaca" class="st0" x="512.4" y="828.61" width="59.89" height="41.32" rx="1.58" ry="1.58"/>
+    <path id="Veracruz" class="st0" d="M495.87,750.38v32.94c0,.88.71,1.58,1.58,1.58h32.49c.88,0,1.58.71,1.58,1.58v40.53c0,.88.71,1.58,1.58,1.58h37.58c.88,0,1.58-.71,1.58-1.58v-21.5c0-.3-.09-.59-.25-.85l-60.76-96.12c-.29-.46-.8-.74-1.34-.74h-28.83c-.88,0-1.58.71-1.58,1.58v37.81c0,.88.71,1.58,1.58,1.58h13.18c.88,0,1.58.71,1.58,1.58Z"/>
+    <path id="Chiapas" class="st0" d="M572.28,868.82v-38.69c0-.84.68-1.52,1.52-1.52h48.69c.84,0,1.52.68,1.52,1.52v54.46c0,1.03-1.01,1.77-1.99,1.45l-48.69-15.77c-.63-.2-1.05-.79-1.05-1.45Z"/>
+    <rect id="Tabasco" class="st0" x="572.28" y="805.06" width="51.74" height="23.55" rx="1.53" ry="1.53"/>
+    <path id="Campeche" class="st0" d="M624.02,805.78v21.3c0,.84.68,1.53,1.53,1.53h54.11c.84,0,1.53-.68,1.53-1.53v-66.14c0-1.29-1.51-2-2.5-1.18l-54.11,44.84c-.35.29-.55.72-.55,1.18Z"/>
+    <path id="Quintana_Roo" class="st0" d="M683.58,826.83l44.13-32.87c1.16-.86.55-2.7-.9-2.7h-44.13c-.83,0-1.5.67-1.5,1.5v32.87c0,1.23,1.41,1.94,2.4,1.2Z"/>
+    <rect id="Yucatán" class="st0" x="681.19" y="757.68" width="50.15" height="33.57" rx="1.8" ry="1.8"/>
+  </g>
+  <g>
+    <rect class="st17" x="514.76" y="312.86" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(521.47 329.55)"><tspan x="0" y="0">MN</tspan></text>
+    <rect class="st17" x="520.76" y="383.9" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(531.93 400.6)"><tspan x="0" y="0">IA</tspan></text>
+    <rect class="st17" x="534.1" y="445.94" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(540.53 462.64)"><tspan x="0" y="0">MO</tspan></text>
+    <rect class="st17" x="540.1" y="509.31" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(548.03 526.01)"><tspan x="0" y="0">AR</tspan></text>
+    <rect class="st17" x="540.1" y="569.35" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(548.95 586.05)"><tspan x="0" y="0">LA</tspan></text>
+    <rect class="st17" x="580.8" y="531.33" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(588.23 548.02)"><tspan x="0" y="0">MS</tspan></text>
+    <rect class="st17" x="626.83" y="531.33" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(635.67 548.02)"><tspan x="0" y="0">AL</tspan></text>
+    <rect class="st17" x="679.52" y="526.66" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(686.86 543.35)"><tspan x="0" y="0">GA</tspan></text>
+    <rect class="st17" x="726.22" y="512.65" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(734.39 529.35)"><tspan x="0" y="0">SC</tspan></text>
+    <rect class="st17" x="718.88" y="477.96" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(726.31 494.66)"><tspan x="0" y="0">NC</tspan></text>
+    <rect class="st17" x="732.22" y="445.94" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(740.4 462.64)"><tspan x="0" y="0">VA</tspan></text>
+    <rect class="st17" x="630.16" y="477.96" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(638.51 494.66)"><tspan x="0" y="0">TN</tspan></text>
+    <rect class="st17" x="626.83" y="453.28" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(635.33 469.98)"><tspan x="0" y="0">KY</tspan></text>
+    <rect class="st17" x="614.82" y="409.92" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(625.67 426.62)"><tspan x="0" y="0">IN</tspan></text>
+    <rect class="st17" x="576.79" y="409.92" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(588.89 426.62)"><tspan x="0" y="0">IL</tspan></text>
+    <rect class="st17" x="654.84" y="410.59" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(661.86 427.28)"><tspan x="0" y="0">OH</tspan></text>
+    <rect class="st17" x="690.2" y="424.59" width="38.89" height="21.68"/>
+    <text class="st9" transform="translate(698.25 440.56)"><tspan x="0" y="0">WV</tspan></text>
+    <rect class="st17" x="726.22" y="413.25" width="38.89" height="21.68"/>
+    <text class="st9" transform="translate(734.64 429.22)"><tspan x="0" y="0">MD</tspan></text>
+    <rect class="st17" x="719.55" y="383.9" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(727.89 400.6)"><tspan x="0" y="0">PA</tspan></text>
+    <rect class="st17" x="572.79" y="333.87" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(582.21 350.57)"><tspan x="0" y="0">WI</tspan></text>
+    <rect class="st17" x="635.5" y="333.87" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(645.76 350.57)"><tspan x="0" y="0">MI</tspan></text>
+    <rect class="st17" x="742.9" y="327.87" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(751.25 344.56)"><tspan x="0" y="0">NY</tspan></text>
+    <rect class="st17" x="820.95" y="289.18" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(828.37 305.87)"><tspan x="0" y="0">ME</tspan></text>
+    <rect class="st17" x="794.93" y="342.54" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(801.94 359.24)"><tspan x="0" y="0">MA</tspan></text>
+    <rect class="st17" x="693.53" y="606.71" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(703.3 623.4)"><tspan x="0" y="0">FL</tspan></text>
+    <rect class="st17" x="451.38" y="572.02" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(460.98 588.72)"><tspan x="0" y="0">TX</tspan></text>
+    <rect class="st17" x="451.38" y="493.97" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(458.55 510.67)"><tspan x="0" y="0">OK</tspan></text>
+    <rect class="st17" x="451.38" y="441.94" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(459.56 458.63)"><tspan x="0" y="0">KS</tspan></text>
+    <rect class="st17" x="441.38" y="391.91" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(449.39 408.6)"><tspan x="0" y="0">NE</tspan></text>
+    <rect class="st17" x="432.04" y="342.54" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(440.21 359.24)"><tspan x="0" y="0">SD</tspan></text>
+    <rect class="st17" x="432.04" y="292.51" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(439.47 309.21)"><tspan x="0" y="0">ND</tspan></text>
+    <rect class="st17" x="331.98" y="296.51" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(339.74 313.21)"><tspan x="0" y="0">MT</tspan></text>
+    <rect class="st17" x="342.65" y="360.55" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(349.57 377.25)"><tspan x="0" y="0">WY</tspan></text>
+    <rect class="st17" x="359.99" y="430.6" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(367.16 447.29)"><tspan x="0" y="0">CO</tspan></text>
+    <rect class="st17" x="351.32" y="512.65" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(358.01 529.35)"><tspan x="0" y="0">NM</tspan></text>
+    <rect class="st17" x="285.28" y="512.65" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(293.79 529.35)"><tspan x="0" y="0">AZ</tspan></text>
+    <rect class="st17" x="285.28" y="419.92" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(293.63 436.62)"><tspan x="0" y="0">UT</tspan></text>
+    <rect class="st17" x="267.94" y="344.54" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(278.94 361.24)"><tspan x="0" y="0">ID</tspan></text>
+    <rect class="st17" x="227.24" y="409.25" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(235.09 425.95)"><tspan x="0" y="0">NV</tspan></text>
+    <rect class="st17" x="207.9" y="483.3" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(215.65 499.99)"><tspan x="0" y="0">CA</tspan></text>
+    <rect class="st17" x="195.22" y="337.87" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(202.56 354.57)"><tspan x="0" y="0">OR</tspan></text>
+    <rect class="st17" x="188.55" y="286.51" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(194.72 303.21)"><tspan x="0" y="0">WA</tspan></text>
+    <rect class="st17" x="31.68" y="521.35" width="38.89" height="21.68"/>
+    <text class="st4" transform="translate(42.52 538.03)"><tspan x="0" y="0">HI</tspan></text>
+    <rect class="st17" x="761.58" y="385.9" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(773.01 401.14)"><tspan x="0" y="0">NJ</tspan></text>
+    <rect class="st17" x="759.77" y="408.52" width="38.89" height="14.68"/>
+    <text class="st12" transform="translate(773.55 418.81)"><tspan x="0" y="0">DE</tspan></text>
+    <rect class="st17" x="756.64" y="428.86" width="21.01" height="11.74"/>
+    <text class="st12" transform="translate(761.25 437.64)"><tspan x="0" y="0">DC</tspan></text>
+    <rect class="st17" x="790.39" y="363.22" width="21.01" height="11.74"/>
+    <text class="st12" transform="translate(795.43 371.97)"><tspan x="0" y="0">CT</tspan></text>
+    <rect class="st17" x="807.74" y="363.22" width="21.01" height="11.74"/>
+    <text class="st12" transform="translate(814.11 371.97)"><tspan x="0" y="0">RI</tspan></text>
+    <rect class="st17" x="789.06" y="317.86" width="21.01" height="11.74"/>
+    <text class="st12" transform="translate(794.31 326.61)"><tspan x="0" y="0">VT</tspan></text>
+    <rect class="st17" x="805.74" y="317.86" width="21.01" height="11.74"/>
+    <text class="st12" transform="translate(810.16 326.61)"><tspan x="0" y="0">NH</tspan></text>
+    <rect class="st17" x="825.15" y="684.62" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(836.27 699.84)"><tspan x="0" y="0">AS</tspan></text>
+    <rect class="st17" x="795.13" y="684.62" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(805.57 699.84)"><tspan x="0" y="0">MP</tspan></text>
+    <rect class="st17" x="761.11" y="684.62" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(771.24 699.84)"><tspan x="0" y="0">GU</tspan></text>
+    <rect class="st17" x="825.15" y="601.24" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(838.58 616.46)"><tspan x="0" y="0">VI</tspan></text>
+    <rect class="st17" x="773.12" y="601.24" width="38.89" height="21.68"/>
+    <text class="st10" transform="translate(784.24 616.46)"><tspan x="0" y="0">PR</tspan></text>
+    <text class="st4" transform="translate(217.86 238.89)"><tspan x="0" y="0">BC</tspan></text>
+    <text class="st4" transform="translate(322.76 239.18)"><tspan x="0" y="0">AB</tspan></text>
+    <text class="st4" transform="translate(387.06 239.18)"><tspan x="0" y="0">SK</tspan></text>
+    <text class="st4" transform="translate(467.44 239.18)"><tspan x="0" y="0">MB</tspan></text>
+    <text class="st4" transform="translate(639.55 257.72)"><tspan x="0" y="0">ON</tspan></text>
+    <text class="st4" transform="translate(784.51 233.86)"><tspan x="0" y="0">QC</tspan></text>
+    <text class="st4" transform="translate(845.36 263.26)"><tspan x="0" y="0">NB</tspan></text>
+    <text class="st12" transform="translate(874.75 303.35)"><tspan x="0" y="0">NS</tspan></text>
+    <text class="st12" transform="translate(887.2 244.82)"><tspan x="0" y="0">PE</tspan></text>
+    <text class="st4" transform="translate(455.11 127.22)"><tspan x="0" y="0">NU</tspan></text>
+    <text class="st12" transform="translate(845.34 184.47)"><tspan x="0" y="0">NL</tspan></text>
+    <text class="st4" transform="translate(328.78 127.22)"><tspan x="0" y="0">NT</tspan></text>
+    <text class="st4" transform="translate(183.88 127.22)"><tspan x="0" y="0">YT</tspan></text>
+    <text class="st4" transform="translate(93.99 127.22)"><tspan x="0" y="0">AK</tspan></text>
+    <text class="st12" transform="translate(238.63 612.08)"><tspan x="0" y="0">BA</tspan></text>
+    <text class="st12" transform="translate(240.79 720.27)"><tspan x="0" y="0">BJ</tspan></text>
+    <text class="st11" transform="translate(420.36 746.08)"><tspan x="0" y="0">AG</tspan></text>
+    <text class="st11" transform="translate(452.38 676.28)"><tspan x="0" y="0">NL</tspan></text>
+    <text class="st11" transform="translate(453.64 771.38)"><tspan x="0" y="0">GU</tspan></text>
+    <text class="st11" transform="translate(467.79 771.38)"><tspan x="0" y="0">QU</tspan></text>
+    <text class="st11" transform="translate(483.64 771.5)"><tspan x="0" y="0">HL</tspan></text>
+    <text class="st11" transform="translate(483.06 825.99)"><tspan x="0" y="0">MR</tspan></text>
+    <text class="st5" transform="translate(300.52 617.55)"><tspan x="0" y="0">SO</tspan></text>
+    <text class="st7" transform="translate(349.75 628.39)"><tspan x="0" y="0">CH</tspan></text>
+    <text class="st7" transform="translate(417.53 664.51)"><tspan x="0" y="0">CU</tspan></text>
+    <text class="st5" transform="translate(468.08 690.95)"><tspan x="0" y="0">TA</tspan></text>
+    <text class="st7" transform="translate(332.17 705.16)"><tspan x="0" y="0">SI</tspan></text>
+    <text class="st7" transform="translate(372.17 705.16)"><tspan x="0" y="0">DO</tspan></text>
+    <text class="st7" transform="translate(422.43 724.82)"><tspan x="0" y="0">ZA</tspan></text>
+    <text class="st7" transform="translate(456.53 735.34)"><tspan x="0" y="0">SL</tspan></text>
+    <text class="st7" transform="translate(509.82 771.5)"><tspan x="0" y="0">VC</tspan></text>
+    <text class="st7" transform="translate(394.89 766.56)"><tspan x="0" y="0">JL</tspan></text>
+    <text class="st5" transform="translate(345.55 754.21)"><tspan x="0" y="0">NA</tspan></text>
+    <text class="st7" transform="translate(408.52 813.1)"><tspan x="0" y="0">MC</tspan></text>
+    <text class="st7" transform="translate(441.38 857.36)"><tspan x="0" y="0">GR</tspan></text>
+    <text class="st7" transform="translate(529.7 857.36)"><tspan x="0" y="0">OA</tspan></text>
+    <text class="st7" transform="translate(588.54 857.36)"><tspan x="0" y="0">CI</tspan></text>
+    <text class="st7" transform="translate(589.26 823.52)"><tspan x="0" y="0">TB</tspan></text>
+    <text class="st7" transform="translate(642.81 813.1)"><tspan x="0" y="0">CE</tspan></text>
+    <text class="st7" transform="translate(694.53 780.43)"><tspan x="0" y="0">YU</tspan></text>
+    <text class="st5" transform="translate(684.19 809.19)"><tspan x="0" y="0">QR</tspan></text>
+    <text class="st5" transform="translate(506.79 822.65)"><tspan x="0" y="0">PB</tspan></text>
+    <text class="st5" transform="translate(499.16 801.3)"><tspan x="0" y="0">TL</tspan></text>
+    <text class="st5" transform="translate(470.83 801.3)"><tspan x="0" y="0">MX</tspan></text>
+    <text class="st5" transform="translate(353.97 799.04)"><tspan x="0" y="0">CL</tspan></text>
+    <text class="st11" transform="translate(483.64 815.35)"><tspan x="0" y="0">CM</tspan></text>
+  </g>
+</svg>

@@ -736,6 +736,49 @@ const 计分 = _=>{
     保存等级们();
 })
 
+const 版本 = 文档.querySelector('#Version');
+const 选择版本样式 = Select_Ver.style;
+添加事件监控(版本,'click', e=>{
+    全关闭()
+    e.stopPropagation();
+
+    选择版本样式.display = 'block';
+    const 选择版本方位 = 获取元素方位(Select_Ver);
+    const 按钮方位 = 获取元素方位(版本);
+    const 当前版本 = 'EU';
+    for (const child of Select_Ver.children) {
+        if ( child.getAttribute('ver') == 当前版本 ) {
+            child.style.background = "#aaa";
+        }
+        else {
+            child.style.background = "#fff";
+        }
+    }
+    
+    let 左 = Math.round(按钮方位.left + 按钮方位.width/2 - 选择版本方位.width/2);
+    左 = Math.min(
+        左,
+        document.body.offsetWidth - 选择版本方位.width - 最小间距
+    );
+    左 = Math.max(
+        左,
+        最小间距
+    );
+
+    let 上 = Math.round(按钮方位.top - 选择版本方位.height - 最小间距);
+    上 = Math.min(
+        上,
+        document.body.offsetHeight - 选择版本方位.height - 最小间距
+    );
+    上 = Math.max(
+        上,
+        最小间距
+    );
+
+    选择版本样式.left = 左 + 'px';
+    选择版本样式.top = 上 + 'px';
+});
+
 const 语言 = 文档.querySelector('#Lang');
 const 设置语言样式 = Set_Lang.style;
 添加事件监控(语言,'click', e=>{

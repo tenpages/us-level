@@ -1,9 +1,11 @@
 # Map Levels
 Mark your footprint using these simple apps
 
-US: https://tenpages.github.io/us-level/us.html
+US: https://tenpages.netlify.app/us-level/us.html
 
-Europe: https://tenpages.github.io/us-level/eu.html
+Europe: https://tenpages.netlify.app/us-level/eu.html
+
+Canada-US-Mexico: https://tenpages.netlify.app/us-level/cam.html
 
 > I'm new to `js` so there might be issues with these apps. Please let me know if there is anything wrong to [issues](https://github.com/tenpages/us-level/issues) or fix them with [pull requests](https://github.com/tenpages/us-level/pulls).
 
