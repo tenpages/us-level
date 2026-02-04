@@ -600,6 +600,9 @@ const 数据 = {};
 const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
 const 本地存储等级们钥匙 = 'us-levels';
+const 北美本地存储等级们钥匙 = 'cam-levels';
+const 省等级们正则 = /^[\d|-]{56}$/;
+const 北美省等级们正则 = /^[\d|-]{101}$/;
 const 保存等级们 = _=>{
     let 本地存储value = ""
     for (const 省元素 of 获取所有省元素们()) {
@@ -609,11 +612,25 @@ const 保存等级们 = _=>{
         else 本地存储value += 省元素.getAttribute('level')||0
     }
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
+    临时等级们字串 = 本地存储.getItem(北美本地存储等级们钥匙);
+    if(!北美省等级们正则.test(临时等级们字串))
+        本地存储.setItem(北美本地存储等级们钥匙,本地存储value+'0'.repeat(101-56));
+    else {
+        新北美本地存储value = 本地存储value + 临时等级们字串.slice(56);
+        本地存储.setItem(北美本地存储等级们钥匙,新北美本地存储value);
+    }
 };
-const 省等级们正则 = /^[\d|-]{56}$/;
 const 获取等级们并生效 = _=>{
-    const 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
-    if(!省等级们正则.test(等级们字串)) return;
+    临时等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
+    console.log(临时等级们字串);
+    if(!省等级们正则.test(临时等级们字串)) {
+        临时等级们字串 = 本地存储.getItem(北美本地存储等级们钥匙);
+        if(北美省等级们正则.test(临时等级们字串)) {
+            临时等级们字串 = 临时等级们字串.slice(0,56);
+        }
+        else return;
+    }
+    const 等级们字串 = 临时等级们字串;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
         元素.setAttribute('level',等级们[下标]=='-'?'0':等级们[下标])
